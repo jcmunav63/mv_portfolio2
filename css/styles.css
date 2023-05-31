@@ -30,6 +30,14 @@ section {
   margin-bottom: 150px;
 }
 
+ul {
+  list-style: none;
+}
+
+li {
+  margin-right: 15px;
+}
+
 a {
   text-decoration: none;
 }
@@ -86,4 +94,27 @@ nav {
   margin-top: 20px;
   margin-bottom: 10px;
   color: #7f8cff;
+}
+
+.container-3 {
+  display: flex;
+}
+
+.linkedin.m.github.sign {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.menu-im {
+  width: 42px;
+}
+
+.m {
+  width: 22px;
+  position: relative;
+  top: 3px;
+}
+
+.space1 {
+  width: 40%;
 }
