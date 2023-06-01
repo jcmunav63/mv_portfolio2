@@ -100,20 +100,23 @@ nav {
   display: flex;
 }
 
-.linkedin.m.github.sign {
-  padding-left: 15px;
-  padding-right: 15px;
-}
+.linkedin,
+.m,
+.github,
+.angellist {
+    padding-left: 5px;
+    padding-right: 5px;
+  }
 
-.menu-im {
-  width: 42px;
-}
+  .github {
+    padding-right: 5px;
+  }
 
-.m {
-  width: 22px;
-  position: relative;
-  top: 3px;
-}
+  .m {
+    width: 22px;
+    height: 22px;
+    margin-top: 2px;
+  }
 
 .space1 {
   width: 40%;
