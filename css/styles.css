@@ -6,10 +6,9 @@
 
 /* MOBILE SIZE MEDIA QUERY */
 @media only screen and (max-width: 767px) {
-
   body {
     /* background-position: 0% 35%; */
-    background-position: 0% 35.0%;
+    background-position: 0% 35%;
     background-size: 100%;
     background-image: url(/images/headline-background-mobile.png);
     background-repeat: no-repeat;
@@ -117,7 +116,7 @@
     height: 22px;
     margin-top: 2px;
   }
-]
+}
 
 /* DESKTOP SIZE MEDIA QUERY */
 @media only screen and (min-width: 768px) {
