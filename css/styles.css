@@ -102,12 +102,12 @@ nav {
 .m,
 .github,
 .angellist {
-    padding-left: 5px;
-    padding-right: 5px;
-  }
+  padding-left: 5px;
+  padding-right: 5px;
+}
 
-  .m {
-    width: 22px;
-    height: 22px;
-    margin-top: 2px;
-  }
+.m {
+  width: 22px;
+  height: 22px;
+  margin-top: 2px;
+}
