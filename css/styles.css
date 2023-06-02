@@ -31,7 +31,7 @@
     box-sizing: border-box;
     /* margin-left: 24px; */
     margin-right: 20px;
-    margin-bottom: 150px;
+    margin-bottom: 120px;
   }
 
   ul {
@@ -231,6 +231,58 @@
   }
 
   .see-project:hover {
+    font-size: 17px;
+    line-height: 24px;
+    font-weight: 500;
+    text-align: center;
+    vertical-align: middle;
+    background-color: #6070ff;
+    color: #fff;
+    border: solid 1px #fff;
+    padding: 12px;
+    border-radius: 4px;
+    margin-left: 5%;
+    margin-right: auto;
+  }
+
+  /* Section About Myself */
+  .about_myself {
+    margin: 20px, 0, 20px, 0;
+    color: #172b4d;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .about {
+    width: 90%;
+    color: #172b4d;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 52px;
+    margin-left: 24px;
+  }
+
+  .container-4 {
+    display: flex;
+    margin: 0 20px 20px 24px;
+  }
+
+  .my-resume {
+    font-size: 17px;
+    line-height: 24px;
+    font-weight: 500;
+    text-align: center;
+    vertical-align: middle;
+    background-color: #fff;
+    color: #396df2;
+    border: solid 1px #396df2;
+    padding: 12px;
+    border-radius: 4px;
+    margin-left: 5%;
+    margin-right: auto;
+  }
+
+  .my-resume:hover {
     font-size: 17px;
     line-height: 24px;
     font-weight: 500;
