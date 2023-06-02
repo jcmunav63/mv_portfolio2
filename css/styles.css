@@ -301,7 +301,7 @@
     margin: 30px auto 15px 26px;
     width: 80%;
   }
-  
+
   .frameworks,
   .skills {
     display: flex;
@@ -309,14 +309,14 @@
     margin: 15px auto 30px 26px;
     width: 80%;
   }
-  
+
   .lang1 {
     width: 85%;
     margin: 10px auto 10px auto;
     display: flex;
     flex-direction: column;
   }
-  
+
   .row1 {
     width: 100%;
     display: flex;
@@ -324,60 +324,60 @@
     padding-bottom: 3px;
     background-color: #f7f7f9;
   }
-  
+
   .li-sp {
     margin-bottom: 12px;
   }
 
   .arrow-down {
-  width: 24px;
-  height: 24px;
-  background-color: #fff;
-  background-blend-mode: multiply;
-  vertical-align: middle;
+    width: 24px;
+    height: 24px;
+    background-color: #fff;
+    background-blend-mode: multiply;
+    vertical-align: middle;
+  }
+
+  .arrow-right {
+    width: 24px;
+    height: 24px;
+    background-color: #fff;
+    background-blend-mode: multiply;
+    vertical-align: middle;
+  }
+
+  .lang,
+  .frame,
+  .skill {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    color: #172b4d;
+  }
+
+  .js,
+  .html5,
+  .css3 {
+    font-size: 15px;
+    color: #253858;
+    font-weight: 500;
+    line-height: 20px;
+    padding-top: 16px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    width: 70%;
+    vertical-align: middle;
+  }
+
+  .js-img,
+  .html5-img,
+  .css3-img {
+    width: 17%;
+    height: auto;
+    padding: 4px;
+  }
 }
 
-.arrow-right {
-  width: 24px;
-  height: 24px;
-  background-color: #fff;
-  background-blend-mode: multiply;
-  vertical-align: middle;
-}
-
-.lang,
-.frame,
-.skill {
-  font-size: 20px;
-  font-weight: 500;
-  line-height: 24px;
-  color: #172b4d;
-}
-
-.js,
-.html5,
-.css3 {
-  font-size: 15px;
-  color: #253858;
-  font-weight: 500;
-  line-height: 20px;
-  padding-top: 16px;
-  padding-bottom: 5px;
-  padding-left: 15px;
-  width: 70%;
-  vertical-align: middle;
-}
-
-.js-img,
-.html5-img,
-.css3-img {
-  width: 17%;
-  height: auto;
-  padding: 4px;
-}
-}
-
-/* DESKTOP SIZE MEDIA QUERY (NOT YET ACCORDING TO FIGMA DESIGN)*/
+/* DESKTOP SIZE MEDIA QUERY (NOT YET ACCORDING TO FIGMA DESIGN) */
 @media only screen and (min-width: 768px) {
   body {
     background-position: 0% 1.5%;
@@ -674,7 +674,7 @@
     margin: 30px auto 15px 26px;
     width: 80%;
   }
-  
+
   .frameworks,
   .skills {
     display: flex;
@@ -682,14 +682,14 @@
     margin: 15px auto 30px 26px;
     width: 80%;
   }
-  
+
   .lang1 {
     width: 85%;
     margin: 10px auto 10px auto;
     display: flex;
     flex-direction: column;
   }
-  
+
   .row1 {
     width: 100%;
     display: flex;
@@ -697,17 +697,17 @@
     padding-bottom: 3px;
     background-color: #f7f7f9;
   }
-  
+
   .li-sp {
     margin-bottom: 12px;
   }
 
   .arrow-down {
-  width: 24px;
-  height: 24px;
-  background-color: #fff;
-  background-blend-mode: multiply;
-  vertical-align: middle;
+    width: 24px;
+    height: 24px;
+    background-color: #fff;
+    background-blend-mode: multiply;
+    vertical-align: middle;
   }
 
   .arrow-right {
