@@ -29,7 +29,6 @@
   section {
     width: 100%;
     box-sizing: border-box;
-    /* margin-left: 24px; */
     margin-right: 20px;
     margin-bottom: 120px;
   }
@@ -134,7 +133,6 @@
     display: grid;
     grid-template-columns: 100%;
     grid-template-rows: 640px 700px 640px 700px;
-    /* gap: 25px; */
   }
 
   .work1 {
@@ -295,6 +293,86 @@
     border-radius: 4px;
     margin-left: 5%;
     margin-right: auto;
+  }
+
+  .languages {
+    display: flex;
+    justify-content: space-between;
+    margin: 15px auto 15px 26px;
+    width: 80%;
+  }
+  
+  .frameworks,
+  .skills {
+    display: flex;
+    justify-content: space-between;
+    margin: 15px auto 30px 26px;
+    width: 80%;
+  }
+  
+  .lang1 {
+    width: 85%;
+    margin: 10px auto 10px auto;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .row1 {
+    width: 100%;
+    display: flex;
+    padding-top: 4px;
+    padding-bottom: 3px;
+    background-color: #f7f7f9;
+  }
+  
+  .li-sp {
+    margin-bottom: 12px;
+  }
+
+  .arrow-down {
+    width: 24px;
+    height: 24px;
+    background-color: #fff;
+    background-blend-mode: multiply;
+    vertical-align: middle;
+  }
+  
+  .arrow-right {
+    width: 24px;
+    height: 24px;
+    background-color: #fff;
+    background-blend-mode: multiply;
+    vertical-align: middle;
+  }
+  
+  .lang,
+  .frame,
+  .skill {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+  }
+  
+  .js,
+  .html5,
+  .css3 {
+    font-size: 15px;
+    color: #253858;
+    font-weight: 500;
+    line-height: 20px;
+    padding-top: 16px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    width: 70%;
+    vertical-align: middle;
+  }
+  
+  .js-img,
+  .html5-img,
+  .css3-img {
+    width: 17%;
+    height: auto;
+    padding: 4px;
   }
 }
 
