@@ -49,6 +49,13 @@
     padding: 0;
   }
 
+  hr {
+    width: 90%;
+    margin: 2px auto 2px auto;
+    padding: 0;
+    border-bottom: solid 1px #dfe1e6;
+  }
+
   .poppins {
     font-family: Poppins, sans-serif;
   }
@@ -352,6 +359,10 @@
     font-weight: 500;
     line-height: 24px;
     color: #172b4d;
+  }
+
+  .lang-sub {
+    margin-left: 6%;
   }
 
   .js,
@@ -422,6 +433,13 @@
     padding: 0;
   }
 
+  hr {
+    width: 90%;
+    margin: 2px auto 2px auto;
+    padding: 0;
+    border-bottom: solid 1px #dfe1e6;
+  }
+
   .poppins {
     font-family: Poppins, sans-serif;
   }
@@ -725,6 +743,10 @@
     font-weight: 500;
     line-height: 24px;
     color: #172b4d;
+  }
+
+  .lang-sub {
+    margin-left: 6%;
   }
 
   .js,
