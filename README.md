@@ -26,7 +26,7 @@
 
 mv_portfolio2!
 
-**mv_portfolio2** It's a Portfolio responsive web app! This is a Setup & Mobile First project.
+**mv_portfolio2** It's a Portfolio responsive web app! This is the Finish Mobile Version project.
 
 ## 🛠️ Built With <a name="built-with">
 ### Tech Stack <a name="tech-stack"></a>
@@ -117,9 +117,7 @@ To run tests, run the following command:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- **Include other sections for mobile version:**
-    **Work section**
-    **About me section**
+- **Include another section for mobile version:**
     **Contact me section**
 - **Desktop version**
 
