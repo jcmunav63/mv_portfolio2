@@ -208,6 +208,8 @@
     background-color: #ebebff;
     padding: 4px 12px 4px 12px;
     border-radius: 4px;
+    margin-right: 5%;
+    margin-bottom: 4%;
   }
 
   .flex1,
@@ -217,6 +219,11 @@
     display: flex;
     align-items: center;
     margin-bottom: 15px;
+  }
+
+  .float1 {
+    float: right;
+    margin-left: 5%;
   }
 
   .see-project {
