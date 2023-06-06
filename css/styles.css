@@ -393,6 +393,34 @@
     height: auto;
     padding: 4px;
   }
+
+  /* Contact form section */
+  .footer {
+    background-image: url(/images/blue-background.png);
+    background-size: cover;
+    height: 100vh;
+  }
+
+  .heading2 {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    color: #fff;
+    text-align: center;
+    padding-top: 30%;
+  }
+
+  .paragraph2 {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    color: #fff;
+    text-align: center;
+    padding: 10% 0 10% 0;
+  }
 }
 
 /* DESKTOP SIZE MEDIA QUERY (NOT YET ACCORDING TO FIGMA DESIGN) */
