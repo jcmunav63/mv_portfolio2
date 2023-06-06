@@ -22,7 +22,7 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [mv_portfolio2] <a name="about-project"></a>
+# 📖 [mv_portfolio2 - Contact Form] <a name="about-project"></a>
 
 mv_portfolio2!
 
@@ -110,6 +110,11 @@ To run tests, run the following command:
 - GitHub: [@jcmunav63](https://github.com/jcmunav63)
 - Twitter: [@jcmunav63](https://twitter.com/jcmunav63)
 - LinkedIn: [@juan-carlos-muñoz-navarrete](https://www.linkedin.com/in/juan-carlos-mu%C3%B1oz-navarrete-5a15b6276/)
+
+👤 **Peter Mwovi**
+- Github: [@githubhandle](https://github.com/peter-mwovi/)
+- Twitter: [@twitterhandle](https://twitter.com/mwovi_peter)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/peter-mwovi-57141a179/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
