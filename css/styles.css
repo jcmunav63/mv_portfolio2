@@ -29,7 +29,7 @@
     width: 100%;
     box-sizing: border-box;
     margin-right: 20px;
-    margin-bottom: 120px;
+    /* margin-bottom: 120px; */
   }
 
   ul {
@@ -398,7 +398,8 @@
   .footer {
     background-image: url(/images/blue-background.png);
     background-size: cover;
-    height: 100vh;
+    height: 100%;
+    margin-bottom: 50px;
   }
 
   .heading2 {
@@ -412,15 +413,68 @@
   }
 
   .paragraph2 {
-    font-family: "Poppins";
-    font-style: normal;
+    /* font-style: normal; */
+    color: #fff;
+    padding: 10% 0 10% 0;
+    margin: 10px auto 25px auto;
     font-weight: 400;
     font-size: 20px;
+    width: 87%;
     line-height: 28px;
-    color: #fff;
     text-align: center;
-    padding: 10% 0 10% 0;
   }
+
+  .box2 {
+    background-color: #fff;
+    border: solid 1px #cfd8dc;
+    border-radius: 8px;
+    width: 88%;
+    height: 50px;
+    color: #172b4d;
+    margin: 0 auto 18px auto;
+    vertical-align: middle;
+  }
+
+  .box3 {
+    background-color: #fff;
+    border: solid 1px #cfd8dc;
+    border-radius: 8px;
+    width: 88%;
+    height: 170px;
+    color: #b3bac5;
+    margin: 0 auto 18px auto;
+  }
+
+  #name {
+    font-size: 17px;
+    margin-top: 10px;
+  }
+
+  #name::placeholder {
+    color: #172b4d;
+    /* margin-top: 20px; */
+    padding-left: 20px;
+  }
+
+  #email {
+    vertical-align: middle;
+    color: #172b4b;
+    font-size: 17px;
+    margin-top: 10px;
+  }
+
+  #email::placeholder {
+    color: #172b4b;
+    padding-left: 20px;
+  }
+
+  #message {
+    color: #b3bac5;
+    padding-left: 20px;
+    font-size: 15px;
+  }
+
+
 }
 
 /* DESKTOP SIZE MEDIA QUERY (NOT YET ACCORDING TO FIGMA DESIGN) */
