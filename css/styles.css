@@ -435,7 +435,6 @@
     height: auto;
     background-position: 0% 1.5%;
     background-size: 100%;
-    background-repeat: no-repeat;
   }
 
   .contact {
@@ -443,7 +442,7 @@
   }
 
   .heading2 {
-    font-family: "Poppins";
+    font-family: "Poppins", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 40px;
@@ -566,7 +565,6 @@
     width: 132px;
     margin: 0 auto 10% 6%;
   }
-
 }
 
 /* DESKTOP SIZE MEDIA QUERY (NOT YET ACCORDING TO FIGMA DESIGN) */
@@ -993,7 +991,6 @@
     height: auto;
     background-position: 0% 1.5%;
     background-size: 100%;
-    background-repeat: no-repeat;
   }
 
   .contact {
@@ -1001,7 +998,7 @@
   }
 
   .heading2 {
-    font-family: "Poppins";
+    font-family: "Poppins", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 40px;
@@ -1063,10 +1060,10 @@
     width: 90%;
   }
 
-#email::placeholder {
-  color: #172b4b;
-  padding-left: 16px;
-}
+  #email::placeholder {
+    color: #172b4b;
+    padding-left: 16px;
+  }
 
   #message {
     font-size: 15px;
