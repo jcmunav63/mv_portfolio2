@@ -45,6 +45,11 @@ mv_portfolio2!
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+🚀 Live Demo
+Link to our deployed project.
+
+- https://jcmunav63.github.io/mv_portfolio1/
+
 <!-- GETTING STARTED -->
 
 ## 💻 Getting Started <a name="getting-started"></a>
