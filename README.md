@@ -22,11 +22,11 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [mv_portfolio2 - Contact Form] <a name="about-project"></a>
+# 📖 [mv_portfolio2 - Add a Contact Form] <a name="about-project"></a>
 
 mv_portfolio2!
 
-**mv_portfolio2** It's a Portfolio responsive web app! This is the Finish Mobile Version project.
+**mv_portfolio2** It's a Portfolio responsive web app! This is to add a Contact Form for the Mobile Version project.
 
 ## 🛠️ Built With <a name="built-with">
 ### Tech Stack <a name="tech-stack"></a>
@@ -41,7 +41,7 @@ mv_portfolio2!
 
 - **Good HTML and CSS practices**
 - **A wepage with use of linters**
-- **Flexbox**
+- **Flexbox & Grid**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -122,9 +122,8 @@ To run tests, run the following command:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- **Include another section for mobile version:**
-    **Contact me section**
-- **Desktop version**
+- **Responsive Web Design to include a Desktop Version**
+- **Deployment of website**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
