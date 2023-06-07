@@ -22,11 +22,11 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [mv_portfolio2] <a name="about-project"></a>
+# 📖 [mv_portfolio2 - Add a Contact Form] <a name="about-project"></a>
 
 mv_portfolio2!
 
-**mv_portfolio2** It's a Portfolio responsive web app! This is the Finish Mobile Version project.
+**mv_portfolio2** It's a Portfolio responsive web app! This is to add a Contact Form for the Mobile Version project.
 
 ## 🛠️ Built With <a name="built-with">
 ### Tech Stack <a name="tech-stack"></a>
@@ -41,9 +41,14 @@ mv_portfolio2!
 
 - **Good HTML and CSS practices**
 - **A wepage with use of linters**
-- **Flexbox**
+- **Flexbox & Grid**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+🚀 Live Demo
+Link to our deployed project.
+
+- https://jcmunav63.github.io/mv_portfolio1/
 
 <!-- GETTING STARTED -->
 
@@ -111,15 +116,19 @@ To run tests, run the following command:
 - Twitter: [@jcmunav63](https://twitter.com/jcmunav63)
 - LinkedIn: [@juan-carlos-muñoz-navarrete](https://www.linkedin.com/in/juan-carlos-mu%C3%B1oz-navarrete-5a15b6276/)
 
+👤 **Peter Mwovi**
+- Github: [@githubhandle](https://github.com/peter-mwovi/)
+- Twitter: [@twitterhandle](https://twitter.com/mwovi_peter)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/peter-mwovi-57141a179/)
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FUTURE FEATURES -->
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- **Include another section for mobile version:**
-    **Contact me section**
-- **Desktop version**
+- **Responsive Web Design to include a Desktop Version**
+- **Deployment of website**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

@@ -208,6 +208,8 @@
     background-color: #ebebff;
     padding: 4px 12px 4px 12px;
     border-radius: 4px;
+    margin-right: 5%;
+    margin-bottom: 4%;
   }
 
   .flex1,
@@ -217,6 +219,11 @@
     display: flex;
     align-items: center;
     margin-bottom: 15px;
+  }
+
+  .float1 {
+    float: right;
+    margin-left: 5%;
   }
 
   .see-project {
@@ -241,6 +248,21 @@
     text-align: center;
     vertical-align: middle;
     background-color: #6070ff;
+    color: #fff;
+    border: solid 1px #fff;
+    padding: 12px;
+    border-radius: 4px;
+    margin-left: 5%;
+    margin-right: auto;
+  }
+
+  .see-project:active {
+    font-size: 17px;
+    line-height: 24px;
+    font-weight: 500;
+    text-align: center;
+    vertical-align: middle;
+    background-color: #2230d2;
     color: #fff;
     border: solid 1px #fff;
     padding: 12px;
@@ -294,6 +316,21 @@
     text-align: center;
     vertical-align: middle;
     background-color: #6070ff;
+    color: #fff;
+    border: solid 1px #fff;
+    padding: 12px;
+    border-radius: 4px;
+    margin-left: 5%;
+    margin-right: auto;
+  }
+
+  .my-resume:active {
+    font-size: 17px;
+    line-height: 24px;
+    font-weight: 500;
+    text-align: center;
+    vertical-align: middle;
+    background-color: #2230d2;
     color: #fff;
     border: solid 1px #fff;
     padding: 12px;
@@ -385,6 +422,145 @@
     width: 17%;
     height: auto;
     padding: 4px;
+  }
+
+  /* Contact form section */
+  .footer {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-image: url(/images/blue-background.png);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: auto;
+    background-position: 0% 1.5%;
+    background-size: 100%;
+    margin-bottom: 25px;
+  }
+
+  .heading2 {
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    color: #fff;
+    text-align: center;
+    padding-top: 29%;
+  }
+
+  .paragraph2 {
+    color: #fff;
+    padding: 4% 0 4% 0;
+    margin: 0 auto 7% auto;
+    font-weight: 400;
+    font-size: 20px;
+    width: 88%;
+    line-height: 28px;
+    text-align: center;
+  }
+
+  .box2 {
+    background-color: #fff;
+    border: solid 1px #cfd8dc;
+    border-radius: 8px;
+    width: 88%;
+    height: 50px;
+    color: #172b4d;
+    margin: 0 auto 18px auto;
+    vertical-align: middle;
+  }
+
+  .box3 {
+    background-color: #fff;
+    border: solid 1px #cfd8dc;
+    border-radius: 8px;
+    width: 88%;
+    height: 170px;
+    color: #b3bac5;
+    margin: 0 auto 18px auto;
+  }
+
+  #name {
+    font-size: 17px;
+    margin-top: 10px;
+    margin-left: 5px;
+    width: 90%;
+  }
+
+  #name::placeholder {
+    color: #172b4d;
+    padding-left: 16px;
+  }
+
+  #email {
+    vertical-align: middle;
+    color: #172b4b;
+    font-size: 17px;
+    margin-top: 10px;
+    margin-left: 5px;
+    width: 90%;
+  }
+
+  #email::placeholder {
+    color: #172b4b;
+    padding-left: 16px;
+  }
+
+  #message {
+    font-size: 15px;
+    margin-top: 10px;
+    margin-left: 5px;
+    width: 90%;
+  }
+
+  #message::placeholder {
+    color: #b3bac5;
+    padding-left: 16px;
+  }
+
+  .btn {
+    font-size: 17px;
+    line-height: 24px;
+    font-weight: 500;
+    text-align: center;
+    vertical-align: middle;
+    background-color: #fff;
+    color: #6070ff;
+    border: solid 1px #6070ff;
+    padding: 12px 16px 12px 16px;
+    border-radius: 8px;
+    width: 132px;
+    margin: 0 auto 10% 6%;
+  }
+
+  .btn:hover {
+    font-size: 17px;
+    line-height: 24px;
+    font-weight: 500;
+    text-align: center;
+    vertical-align: middle;
+    background-color: #6070ff;
+    color: #fff;
+    border: solid 1px #fff;
+    padding: 12px 16px 12px 16px;
+    border-radius: 8px;
+    width: 132px;
+    margin: 0 auto 10% 6%;
+  }
+
+  .btn:active {
+    font-size: 17px;
+    line-height: 24px;
+    font-weight: 500;
+    text-align: center;
+    vertical-align: middle;
+    background-color: #2230d2;
+    color: #fff;
+    border: solid 1px #fff;
+    padding: 12px 16px 12px 16px;
+    border-radius: 8px;
+    width: 132px;
+    margin: 0 auto 10% 6%;
   }
 }
 
@@ -633,6 +809,21 @@
     margin-right: auto;
   }
 
+  .see-project:active {
+    font-size: 17px;
+    line-height: 24px;
+    font-weight: 500;
+    text-align: center;
+    vertical-align: middle;
+    background-color: #2230d2;
+    color: #fff;
+    border: solid 1px #fff;
+    padding: 12px;
+    border-radius: 4px;
+    margin-left: 5%;
+    margin-right: auto;
+  }
+
   /* Section About Myself */
   .about_myself {
     margin: 20px, 0, 20px, 0;
@@ -678,6 +869,21 @@
     text-align: center;
     vertical-align: middle;
     background-color: #6070ff;
+    color: #fff;
+    border: solid 1px #fff;
+    padding: 12px;
+    border-radius: 4px;
+    margin-left: 5%;
+    margin-right: auto;
+  }
+
+  .my-resume:active {
+    font-size: 17px;
+    line-height: 24px;
+    font-weight: 500;
+    text-align: center;
+    vertical-align: middle;
+    background-color: #2230d2;
     color: #fff;
     border: solid 1px #fff;
     padding: 12px;
@@ -769,5 +975,144 @@
     width: 17%;
     height: auto;
     padding: 4px;
+  }
+
+  /* Contact form section */
+  .footer {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-image: url(/images/blue-background.png);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: auto;
+    background-position: 0% 1.5%;
+    background-size: 100%;
+    margin-bottom: 25px;
+  }
+
+  .heading2 {
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    color: #fff;
+    text-align: center;
+    padding-top: 29%;
+  }
+
+  .paragraph2 {
+    color: #fff;
+    padding: 4% 0 4% 0;
+    margin: 0 auto 7% auto;
+    font-weight: 400;
+    font-size: 20px;
+    width: 88%;
+    line-height: 28px;
+    text-align: center;
+  }
+
+  .box2 {
+    background-color: #fff;
+    border: solid 1px #cfd8dc;
+    border-radius: 8px;
+    width: 88%;
+    height: 50px;
+    color: #172b4d;
+    margin: 0 auto 18px auto;
+    vertical-align: middle;
+  }
+
+  .box3 {
+    background-color: #fff;
+    border: solid 1px #cfd8dc;
+    border-radius: 8px;
+    width: 88%;
+    height: 170px;
+    color: #b3bac5;
+    margin: 0 auto 18px auto;
+  }
+
+  #name {
+    font-size: 17px;
+    margin-top: 10px;
+    margin-left: 5px;
+    width: 90%;
+  }
+
+  #name::placeholder {
+    color: #172b4d;
+    padding-left: 16px;
+  }
+
+  #email {
+    vertical-align: middle;
+    color: #172b4b;
+    font-size: 17px;
+    margin-top: 10px;
+    margin-left: 5px;
+    width: 90%;
+  }
+
+  #email::placeholder {
+    color: #172b4b;
+    padding-left: 16px;
+  }
+
+  #message {
+    font-size: 15px;
+    margin-top: 10px;
+    margin-left: 5px;
+    width: 90%;
+  }
+
+  #message::placeholder {
+    color: #b3bac5;
+    padding-left: 16px;
+  }
+
+  .btn {
+    font-size: 17px;
+    line-height: 24px;
+    font-weight: 500;
+    text-align: center;
+    vertical-align: middle;
+    background-color: #fff;
+    color: #6070ff;
+    border: solid 1px #6070ff;
+    padding: 12px 16px 12px 16px;
+    border-radius: 8px;
+    width: 132px;
+    margin: 0 auto 10% 6%;
+  }
+
+  .btn:hover {
+    font-size: 17px;
+    line-height: 24px;
+    font-weight: 500;
+    text-align: center;
+    vertical-align: middle;
+    background-color: #6070ff;
+    color: #fff;
+    border: solid 1px #fff;
+    padding: 12px 16px 12px 16px;
+    border-radius: 8px;
+    width: 132px;
+    margin: 0 auto 10% 6%;
+  }
+
+  .btn:active {
+    font-size: 17px;
+    line-height: 24px;
+    font-weight: 500;
+    text-align: center;
+    vertical-align: middle;
+    background-color: #2230d2;
+    color: #fff;
+    border: solid 1px #fff;
+    padding: 12px 16px 12px 16px;
+    border-radius: 8px;
+    width: 132px;
+    margin: 0 auto 10% 6%;
   }
 }
