@@ -85,6 +85,23 @@
     font-size: 18px;
   }
 
+  .rotate {
+    animation: rotation 2s  linear;
+  }
+
+  .rotate:hover {
+    animation: rotation 2s infinite linear;
+  }
+
+  @keyframes rotation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(359deg);
+    }
+  }
+
   .name {
     width: 85%;
     margin-top: 20px;
@@ -459,6 +476,14 @@
     text-align: center;
   }
 
+  .paragraph2:hover {
+    transform: translate(16px, 0);
+  }
+
+  .paragraph2:hover {
+    transform: translate(16px, 0);
+  }
+
   .box2 {
     background-color: #fff;
     border: solid 1px #cfd8dc;
@@ -490,6 +515,10 @@
   #name::placeholder {
     color: #172b4d;
     padding-left: 16px;
+  }
+
+  #name::placeholder :hover {
+    transform: translate(24px, 0);
   }
 
   #email {
@@ -561,6 +590,13 @@
     border-radius: 8px;
     width: 132px;
     margin: 0 auto 10% 6%;
+  }
+
+  .grow {
+    transition: all 0.2s ease-in-out;
+  }
+  .grow:hover {
+    transform: scale(1.1);
   }
 }
 
@@ -1114,5 +1150,12 @@
     border-radius: 8px;
     width: 132px;
     margin: 0 auto 10% 6%;
+  }
+
+  .grow {
+    transition: all 0.2s ease-in-out;
+  }
+  .grow:hover {
+    transform: scale(1.1);
   }
 }
