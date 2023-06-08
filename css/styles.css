@@ -90,7 +90,7 @@
   }
 
   .rotate:hover {
-    animation: rotation 2s infinite linear;
+    animation: rotation 2s linear;
   }
 
   @keyframes rotation {
@@ -106,6 +106,17 @@
     width: 85%;
     margin-top: 20px;
     margin-left: 24px;
+  }
+
+  #delay {
+    font-size: 40px;
+    transition-property: font-size;
+    transition-duration: 1.5s;
+    transition-delay: 1s;
+  }
+
+  #delay:hover {
+    font-size: 48px;
   }
 
   .desc {
@@ -480,10 +491,6 @@
     transform: translate(16px, 0);
   }
 
-  .paragraph2:hover {
-    transform: translate(16px, 0);
-  }
-
   .box2 {
     background-color: #fff;
     border: solid 1px #cfd8dc;
@@ -515,10 +522,6 @@
   #name::placeholder {
     color: #172b4d;
     padding-left: 16px;
-  }
-
-  #name::placeholder :hover {
-    transform: translate(24px, 0);
   }
 
   #email {
@@ -675,6 +678,23 @@
     flex-direction: column;
   }
 
+  .rotate {
+    animation: rotation 2s  linear;
+  }
+
+  .rotate:hover {
+    animation: rotation 2s linear;
+  }
+
+  @keyframes rotation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(359deg);
+    }
+  }
+
   .logo-txt {
     color: #6070ff;
     font-weight: bold;
@@ -685,6 +705,17 @@
     width: 85%;
     margin-top: 20px;
     margin-left: 24px;
+  }
+
+  #delay {
+    font-size: 40px;
+    transition-property: font-size;
+    transition-duration: 1.5s;
+    transition-delay: 1s;
+  }
+
+  #delay:hover {
+    font-size: 48px;
   }
 
   .desc {
@@ -729,41 +760,70 @@
   }
 
   .grid-1 {
-    width: 90%;
+    display: none;
+    /* width: 90%;
     margin-left: auto;
     margin-right: auto;
     display: grid;
     grid-template-columns: 100%;
-    grid-template-rows: 640px 700px 640px 700px;
+    grid-template-rows: 640px 700px 640px 700px; */
   }
 
-  .work1 {
+  .grid-1b {
+    box-sizing: border-box;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+  }
+
+  .rows {
+    width: 80%;
+    margin: 20px auto 20px auto;
+    padding: 10px 10px 10px 10px;
     background-color: #fff;
     border: solid 1px #dfe1e6;
-    border-radius: 16px;
-    margin-top: 30px;
-    margin-bottom: 30px;
+    border-radius: 24px;
+    display: flex;
+    gap: 20px;
+  }
+
+  .work1b {
+    background-color: #fff;
+    width: 50%;
+    padding: 20px, auto auto 20px;
     display: flex;
     flex-direction: column;
   }
 
-  .desc2 {
-    font-size: 16px;
-    font-weight: 500;
-    color: #344563;
-    line-height: 1.5em;
-    margin-left: 5%;
-    margin-right: auto;
-    margin-bottom: 15px;
+  .photo1 {
+    box-sizing: border-box;
+    width: 50%;
+    height: auto;
+    padding: 10px 10px 10px 10px;
   }
 
-  .work1-img {
-    display: block;
-    width: 90%;
+  .photo2 {
+    box-sizing: border-box;
+    width: 50%;
     height: auto;
-    margin-top: 15px;
-    margin-left: auto;
-    margin-right: auto;
+    padding: 10px 10px 10px 10px;
+  }
+
+  .work1b-img {
+    max-width: 90%;
+    height: auto;
+    object-fit: resize;
+  }
+
+  .work-text1 {
+    font-size: 40px;
+    line-height: 52px;
+    font-weight: 700;
+    color: #172b4d;
+    margin-bottom: 20px;
   }
 
   .work-text1 {
@@ -777,17 +837,26 @@
 
   .canopy {
     color: #344563;
-    font-size: 12px;
-    font-weight: 600;
-    margin: 0;
-    padding: 0;
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 500;
+    margin: 5px 10px 5px 10px;
   }
 
   .bed,
   .year {
-    color: #7a869a;
-    font-size: 12px;
-    font-weight: 600;
+    color: #6b778c;
+    font-size: 18px;
+    font-weight: 400;
+  }
+
+  .desc2 {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #344563;
+    margin-bottom: 28px;
+    width: 90%;
   }
 
   .dot {
@@ -799,20 +868,19 @@
 
   .stack {
     font-size: 12px;
+    line-height: 16px;
     color: #6070ff;
     float: left;
     background-color: #ebebff;
     padding: 4px 12px 4px 12px;
-    border-radius: 4px;
+    border-radius: 6px;
   }
 
   .flex1,
   .flex2 {
-    margin-left: 5%;
-    margin-right: auto;
     display: flex;
     align-items: center;
-    margin-bottom: 15px;
+    margin-bottom: 32px;
   }
 
   .see-project {
@@ -1046,6 +1114,10 @@
     width: 88%;
     line-height: 28px;
     text-align: center;
+  }
+
+  .paragraph2:hover {
+    transform: translate(16px, 0);
   }
 
   .box2 {
