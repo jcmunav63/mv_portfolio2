@@ -70,6 +70,10 @@
     justify-content: space-between;
   }
 
+  .container-5 {
+    display: none;
+  }
+
   /* Section Headline */
   .headline {
     margin: 20px, 0, 20px, 0;
@@ -167,6 +171,10 @@
     display: grid;
     grid-template-columns: 100%;
     grid-template-rows: 640px 700px 640px 700px;
+  }
+
+  .grid-1b {
+    display: none;
   }
 
   .work1 {
@@ -605,6 +613,12 @@
 
 /* DESKTOP SIZE MEDIA QUERY (NOT YET ACCORDING TO FIGMA DESIGN) */
 @media only screen and (min-width: 768px) {
+  * {
+    margin: 0;
+    border: 0;
+    padding: 0;
+  }
+
   body {
     background-position: 0% 1.5%;
     background-size: 100%;
@@ -615,6 +629,7 @@
   h1 {
     font-size: 2.5rem;
     font-weight: bolder;
+    margin-bottom: 5px;
   }
 
   header {
@@ -785,12 +800,6 @@
 
   .grid-1 {
     display: none;
-    /* width: 90%;
-    margin-left: auto;
-    margin-right: auto;
-    display: grid;
-    grid-template-columns: 100%;
-    grid-template-rows: 640px 700px 640px 700px; */
   }
 
   .grid-1b {
