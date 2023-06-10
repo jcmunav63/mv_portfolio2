@@ -9,7 +9,7 @@
   body {
     background-position: 0% 1.5%;
     background-size: 100%;
-    background-image: url(/images/headline-background-mobile.png);
+    background-image: url("../images/headline-background-mobile.png");
     background-repeat: no-repeat;
   }
 
@@ -68,6 +68,10 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+  }
+
+  .container-5 {
+    display: none;
   }
 
   /* Section Headline */
@@ -292,6 +296,15 @@
     margin-left: 24px;
   }
 
+  .desc4 {
+    margin-top: 14px;
+    margin-left: 24px;
+    font-weight: 400;
+    width: 85%;
+    line-height: 1.5;
+    text-align: justify;
+  }
+
   .container-4 {
     display: flex;
     margin: 0 20px 20px 24px;
@@ -429,11 +442,9 @@
   }
 
   /* Contact form section */
-  .footer {
+  #foot {
     box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    background-image: url(/images/blue-background.png);
+    background-image: url("../images/blue-background.png");
     background-repeat: no-repeat;
     width: 100%;
     height: auto;
@@ -442,7 +453,7 @@
     margin-bottom: 25px;
   }
 
-  .heading2 {
+  #contactf {
     font-family: "Poppins", sans-serif;
     font-style: normal;
     font-weight: 700;
@@ -484,14 +495,15 @@
     margin: 0 auto 18px auto;
   }
 
-  #name {
+  #names {
     font-size: 17px;
     margin-top: 10px;
     margin-left: 5px;
     width: 90%;
+    color: #172b4b;
   }
 
-  #name::placeholder {
+  #names::placeholder {
     color: #172b4d;
     padding-left: 16px;
   }
@@ -510,19 +522,21 @@
     padding-left: 16px;
   }
 
-  #message {
-    font-size: 15px;
+  #textarea {
+    font-size: 17px;
     margin-top: 10px;
     margin-left: 5px;
     width: 90%;
+    color: #959ba3;
   }
 
-  #message::placeholder {
-    color: #b3bac5;
+  #textarea::placeholder {
+    color: #959ba3;
     padding-left: 16px;
+    padding-top: 2px;
   }
 
-  .btn {
+  .button3 {
     font-size: 17px;
     line-height: 24px;
     font-weight: 500;
@@ -537,7 +551,7 @@
     margin: 0 auto 10% 6%;
   }
 
-  .btn:hover {
+  .button3:hover {
     font-size: 17px;
     line-height: 24px;
     font-weight: 500;
@@ -552,7 +566,7 @@
     margin: 0 auto 10% 6%;
   }
 
-  .btn:active {
+  .button3:active {
     font-size: 17px;
     line-height: 24px;
     font-weight: 500;
@@ -565,6 +579,31 @@
     border-radius: 8px;
     width: 132px;
     margin: 0 auto 10% 6%;
+  }
+
+  #delay {
+    font-size: 40px;
+    transition-property: font-size;
+    transition-duration: 2s;
+    transition-delay: 1s;
+  }
+
+  #delay:hover {
+    font-size: 48px;
+  }
+
+  .grow { transition: all 0.2s ease-in-out; }
+  .grow:hover { transform: scale(1.1); }
+
+  .paragraph2:hover { transform: translate(16px, 0); }
+
+  .rotate { animation: rotation 2s linear; }
+
+  .rotate:hover { animation: rotation 2s linear; }
+
+  @keyframes rotation {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(359deg); }
   }
 }
 
@@ -1150,6 +1189,18 @@
     color: #959ba3;
     margin: 12px 16px 24px 16px;
     width: 90%;
+  }
+
+  #names::placeholder {
+    color: #172b4d;
+  }
+
+  #email::placeholder {
+    color: #172b4d;
+  }
+
+  #textarea::placeholder {
+    color: #959ba3;
   }
 
   .box2 {
