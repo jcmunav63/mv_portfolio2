@@ -89,10 +89,34 @@
     font-size: 18px;
   }
 
+  .rotate {
+    animation: rotation 2s  linear;
+  }
+
+  .rotate:hover {
+    animation: rotation 2s linear;
+  }
+
+  @keyframes rotation {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(359deg); }
+  }
+
   .name {
     width: 85%;
     margin-top: 20px;
     margin-left: 24px;
+  }
+
+  #delay {
+    font-size: 40px;
+    transition-property: font-size;
+    transition-duration: 1.5s;
+    transition-delay: 1s;
+  }
+
+  #delay:hover {
+    font-size: 48px;
   }
 
   .desc {
@@ -447,10 +471,17 @@
     background-image: url("../images/blue-background.png");
     background-repeat: no-repeat;
     width: 100%;
-    height: auto;
-    background-position: 0% 1.5%;
-    background-size: 100%;
-    margin-bottom: 25px;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
+  #contact-form {
+    box-sizing: border-box;
+    width: 90%;
+    margin: 0% auto 0% auto;
+    display: flex;
+    flex-direction: column;
   }
 
   #contactf {
@@ -460,7 +491,7 @@
     font-size: 40px;
     color: #fff;
     text-align: center;
-    padding-top: 29%;
+    padding-top: 33%;
   }
 
   .paragraph2 {
@@ -474,25 +505,13 @@
     text-align: center;
   }
 
-  .box2 {
-    background-color: #fff;
-    border: solid 1px #cfd8dc;
-    border-radius: 8px;
-    width: 88%;
-    height: 50px;
-    color: #172b4d;
-    margin: 0 auto 18px auto;
-    vertical-align: middle;
+  .paragraph2:hover {
+    transform: translate(16px, 0);
   }
 
-  .box3 {
-    background-color: #fff;
-    border: solid 1px #cfd8dc;
-    border-radius: 8px;
-    width: 88%;
-    height: 170px;
-    color: #b3bac5;
-    margin: 0 auto 18px auto;
+  .form1 {
+    display: flex;
+    flex-direction: column;
   }
 
   #names {
@@ -505,21 +524,26 @@
 
   #names::placeholder {
     color: #172b4d;
-    padding-left: 16px;
-  }
-
-  #email {
-    vertical-align: middle;
-    color: #172b4b;
-    font-size: 17px;
-    margin-top: 10px;
-    margin-left: 5px;
+    margin: 15px 38px 15px 16px;
     width: 90%;
   }
 
-  #email::placeholder {
-    color: #172b4b;
-    padding-left: 16px;
+  #email {
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 20px;
+    color: #172b4d;
+    margin: 15px 38px 15px 16px;
+    width: 90%;
+  }
+
+  #textarea {
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #959ba3;
+    margin: 12px 16px 24px 16px;
+    width: 90%;
   }
 
   #textarea {
@@ -548,7 +572,7 @@
     padding: 12px 16px 12px 16px;
     border-radius: 8px;
     width: 132px;
-    margin: 0 auto 10% 6%;
+    margin: 0 0 10% 5%;
   }
 
   .button3:hover {
@@ -563,7 +587,7 @@
     padding: 12px 16px 12px 16px;
     border-radius: 8px;
     width: 132px;
-    margin: 0 auto 10% 6%;
+    margin: 0 0 10% 5%;
   }
 
   .button3:active {
@@ -578,7 +602,19 @@
     padding: 12px 16px 12px 16px;
     border-radius: 8px;
     width: 132px;
-    margin: 0 auto 10% 6%;
+    margin: 0 0 10% 5%;
+  }
+
+  #names::placeholder {
+    color: #172b4d;
+  }
+
+  #email::placeholder {
+    color: #172b4b;
+  }
+
+  #message::placeholder {
+    color: #b3bac5;
   }
 
   #delay {
@@ -1143,13 +1179,12 @@
     height: 54px;
   }
 
-  .paragraph2 {
-    color: #fff;
-    padding: 4% 0 4% 0;
-    margin: 0 auto 7% auto;
+  #desc3 {
+    margin: 10px auto 28px auto;
     font-weight: 400;
     font-size: 20px;
-    width: 88%;
+    width: 87%;
+    color: #ebebff;
     line-height: 28px;
     text-align: center;
   }
