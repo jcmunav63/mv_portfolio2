@@ -592,10 +592,6 @@
     font-size: 48px;
   }
 
-  .paragraph2:hover {
-    transform: translate(16px, 0);
-  }
-
   .grow { transition: all 0.2s ease-in-out; }
   .grow:hover { transform: scale(1.1); }
 
