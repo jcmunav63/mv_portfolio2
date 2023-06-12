@@ -142,7 +142,7 @@
     margin-right: auto;
     display: grid;
     grid-template-columns: 100%;
-    grid-template-rows: 640px 700px 640px 700px;
+    grid-template-rows: 680px 685px 680px 685px;
   }
 
   .grid-1b {
@@ -165,7 +165,7 @@
     color: #344563;
     line-height: 1.5em;
     margin-left: 5%;
-    margin-right: auto;
+    margin-right: 5%;
     margin-bottom: 15px;
   }
 
