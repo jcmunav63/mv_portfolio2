@@ -22,11 +22,11 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [mv_portfolio2 - Create desktop version] <a name="about-project"></a>
+# 📖 [mv_portfolio2 - Portfolio: Application deployment.] <a name="about-project"></a>
 
 mv_portfolio2!
 
-**mv_portfolio2** It's a Portfolio responsive web app! This is a project branch for implementig a Desktop Version, using Responsive Web Design.
+**mv_portfolio2** It's a Portfolio responsive web app! This is a project branch for deployment of the Portfolio project in GitHub Pages.
 
 ## 🛠️ Built With <a name="built-with">
 ### Tech Stack <a name="tech-stack"></a>
@@ -40,7 +40,7 @@ mv_portfolio2!
 ### Key Features <a name="key-features"></a>
 
 - **Good HTML and CSS practices**
-- **A wepage with use of linters**
+- **A webpage with the use of linters**
 - **Flexbox & Grid**
 - **Responsive Web Design**
 
@@ -49,7 +49,7 @@ mv_portfolio2!
 🚀 Live Demo
 Link to our deployed project.
 
-- https://jcmunav63.github.io/mv_portfolio1/
+- https://jcmunav63.github.io/mv_portfolio2/
 
 <!-- GETTING STARTED -->
 
@@ -128,8 +128,9 @@ To run tests, run the following command:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- **Deployment of website**
-- **Animations & Transitions**
+- **Accessibility testing**
+- **Mobile menu**
+- **Details modal windows**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
