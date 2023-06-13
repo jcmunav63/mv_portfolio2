@@ -535,6 +535,10 @@
     padding-top: 2px;
   }
 
+  .label {
+    display: none;
+  }
+
   .button3 {
     font-size: 17px;
     line-height: 24px;
@@ -1210,6 +1214,10 @@
     height: 170px;
     color: #b3bac5;
     margin: 0 auto 18px auto;
+  }
+
+  .label {
+    display: none;
   }
 
   .button3 {
