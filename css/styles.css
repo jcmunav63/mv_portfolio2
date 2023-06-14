@@ -444,8 +444,6 @@
   /* Contact form section */
   #foot {
     box-sizing: border-box;
-
-    /* background-image: url("../images/blue-background.png"); */
     background-color: #1c33ff;
     border-top-left-radius: 100px;
     background-repeat: no-repeat;
@@ -1115,8 +1113,6 @@
   /* Contact form section */
   #foot {
     box-sizing: border-box;
-
-    /* background: url("../images/bg-contact.png"); */
     background-color: #1c33ff;
     border-top-left-radius: 200px;
     background-size: cover;
