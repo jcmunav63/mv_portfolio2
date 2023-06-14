@@ -108,7 +108,7 @@
     margin-top: 20px;
     margin-bottom: 10px;
     margin-left: 24px;
-    color: #7f8cff;
+    color: #1c33ff;
     font-weight: 400;
   }
 
@@ -444,7 +444,9 @@
   /* Contact form section */
   #foot {
     box-sizing: border-box;
-    background-image: url("../images/blue-background.png");
+    /* background-image: url("../images/blue-background.png"); */
+    background-color: #1c33ff;
+    border-top-left-radius: 100px;
     background-repeat: no-repeat;
     width: 100%;
     height: auto;
@@ -742,7 +744,7 @@
   .connect {
     width: 200px;
     margin-bottom: 8px;
-    color: #7f8cff;
+    color: #1c33ff;
     font-size: 16px;
     line-height: 24px;
     font-weight: 500;
@@ -1112,7 +1114,9 @@
   /* Contact form section */
   #foot {
     box-sizing: border-box;
-    background: url("../images/bg-contact.png");
+    /* background: url("../images/bg-contact.png"); */
+    background-color: #1c33ff;
+    border-top-left-radius: 200px;
     background-size: cover;
     background-position: right 100% top 0%;
     background-repeat: no-repeat;
