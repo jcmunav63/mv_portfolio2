@@ -6,6 +6,7 @@
   - [🛠️ Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
+  - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
@@ -45,6 +46,8 @@ mv_portfolio2!
 - **Responsive Web Design**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+### Live Demo <a name="live-demo"></a>
 
 🚀 Live Demo
 Link to our deployed project.
@@ -117,10 +120,10 @@ To run tests, run the following command:
 - Twitter: [@jcmunav63](https://twitter.com/jcmunav63)
 - LinkedIn: [@juan-carlos-muñoz-navarrete](https://www.linkedin.com/in/juan-carlos-mu%C3%B1oz-navarrete-5a15b6276/)
 
-👤 **Peter Mwovi**
-- Github: [@githubhandle](https://github.com/peter-mwovi/)
-- Twitter: [@twitterhandle](https://twitter.com/mwovi_peter)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/peter-mwovi-57141a179/)
+👤 **Adrián Juárez**
+- Github: [@AdrianScharff](https://github.com/AdrianScharff)
+- Twitter: [@CryptogodAdrian](https://twitter.com/CryptogodAdrian)
+- LinkedIn: [Adrián Juárez](https://www.linkedin.com/in/adri%C3%A1n-ju%C3%A1rez-17a51b263/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -128,9 +131,8 @@ To run tests, run the following command:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- **Accessibility testing**
 - **Mobile menu**
-- **Details modal windows**
+- **Details modal window**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
