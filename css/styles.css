@@ -70,6 +70,29 @@
     justify-content: space-between;
   }
 
+  .overlay {
+    display: none;
+  }
+
+  .show {
+    position: absolute;
+    display: block;
+    background-color: rgb(96, 112, 255, 0.8);
+    width: 100%;
+    height: 810px;
+  }
+
+  .toolbar-2 {
+    display: flex;
+    justify-content: right;
+    margin-right: 24px;
+    padding-top: 12px;
+  }
+
+  .overlay-li {
+    padding-left: 20px;
+  }
+
   .container-5 {
     display: none;
   }
@@ -673,6 +696,10 @@
 
   /* Toolbar */
   .container-2 {
+    display: none;
+  }
+
+  .overlay {
     display: none;
   }
 
