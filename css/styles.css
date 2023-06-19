@@ -21,7 +21,6 @@
   header {
     width: 100%;
     box-sizing: border-box;
-    margin-left: 24px;
     margin-bottom: 90px;
   }
 
@@ -62,13 +61,18 @@
 
   .container-2 {
     font-family: Poppins, sans-serif;
+    width: 90%;
     margin-top: 24px;
-    margin-left: 0;
-    margin-right: 48px;
+    margin-left: 5%;
+    margin.right: 5%;
     display: flex;
     align-items: center;
     justify-content: space-between;
   }
+
+  /* .toolbar {
+    position: relative;
+  } */
 
   .overlay {
     display: none;
@@ -83,7 +87,7 @@
     left: 0;
     top: 0;
     right: 0;
-    z-index: 10;
+    z-index: 1; 
   }
 
   .toolbar-2 {
@@ -95,6 +99,20 @@
 
   .overlay-li {
     padding-left: 20px;
+  }
+
+  .a-li {
+    color: #fff;
+    font-size: 32px;
+    line-height: 54px;
+    font-weight: 550;
+    margin-left: 8%;
+    margin-top: 15%;
+  }
+
+  .cancel1 {
+    padding-top: 10px;
+    padding-left: 8px;
   }
 
   .container-5 {
@@ -117,16 +135,18 @@
   }
 
   .name {
-    width: 85%;
+    width: 90%;
     margin-top: 20px;
-    margin-left: 24px;
+    margin-left: 5%;
+    margin-right: 5%;
   }
 
   .desc {
     margin-top: 14px;
-    margin-left: 24px;
+    margin-left: 5%;
+    margin-right: 5%;
     font-weight: 400;
-    width: 85%;
+    width: 90%;
     line-height: 1.5;
     text-align: justify;
   }
@@ -134,13 +154,15 @@
   .connect {
     margin-top: 20px;
     margin-bottom: 10px;
-    margin-left: 24px;
+    margin-left: 5%;
+    margin-right: 5%;
     color: #7f8cff;
     font-weight: 400;
   }
 
   .container-3 {
-    margin-left: 24px;
+    margin-left: 5%;
+    margin-right: 5%;
     display: flex;
   }
 
@@ -320,21 +342,25 @@
     font-size: 40px;
     font-weight: 700;
     line-height: 52px;
-    margin-left: 24px;
+    margin-left: 5%;
+    margin-right: 5%;
   }
 
   .desc4 {
     margin-top: 14px;
-    margin-left: 24px;
+    margin-left: 5%;
+    margin-right: 5%;
     font-weight: 400;
-    width: 85%;
+    width: 90%;
     line-height: 1.5;
     text-align: justify;
   }
 
   .container-4 {
     display: flex;
-    margin: 0 20px 20px 24px;
+    margin-bottom: 20px;
+    margin-left: 5%;
+    margin-right: 5%;
   }
 
   .my-resume {
@@ -386,7 +412,10 @@
   .languages {
     display: flex;
     justify-content: space-between;
-    margin: 30px auto 15px 26px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    margin-left: 5%;
+    margin-right: 5%;
     width: 80%;
   }
 
@@ -394,7 +423,10 @@
   .skills {
     display: flex;
     justify-content: space-between;
-    margin: 15px auto 30px 26px;
+    margin-top: 15px; 
+    margin-bottom: 30px;
+    margin-left: 5%;
+    margin-right: 5%;
     width: 80%;
   }
 
