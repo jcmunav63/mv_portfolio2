@@ -76,7 +76,7 @@
 
   /* Section Headline */
   .headline {
-    margin: 20px, 0, 20px, 0;
+    margin: 20px 0 20px 0;
     color: #172b4d;
     width: 100%;
     display: flex;
@@ -281,7 +281,7 @@
 
   /* Section About Myself */
   .about_myself {
-    margin: 20px, 0, 20px, 0;
+    margin: 20px 0 20px 0;
     color: #172b4d;
     display: flex;
     flex-direction: column;
@@ -782,7 +782,7 @@
   .work1b {
     background-color: #fff;
     width: 50%;
-    padding: 20px auto auto 20px;
+    padding: 20px;
     display: flex;
     flex-direction: column;
   }
@@ -804,7 +804,7 @@
   .work1b-img {
     max-width: 90%;
     height: auto;
-    object-fit: resize;
+    object-fit: scale-down;
   }
 
   .work-text1b {
