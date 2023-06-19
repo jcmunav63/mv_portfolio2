@@ -64,7 +64,7 @@
     width: 90%;
     margin-top: 24px;
     margin-left: 5%;
-    margin.right: 5%;
+    margin-right: 5%;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -87,7 +87,6 @@
     left: 0;
     top: 0;
     right: 0;
-    z-index: 1; 
   }
 
   .toolbar-2 {
@@ -423,7 +422,7 @@
   .skills {
     display: flex;
     justify-content: space-between;
-    margin-top: 15px; 
+    margin-top: 15px;
     margin-bottom: 30px;
     margin-left: 5%;
     margin-right: 5%;
@@ -653,6 +652,7 @@
   .grow {
     transition: all 0.2s ease-in-out;
   }
+
   .grow:hover {
     transform: scale(1.1);
   }
@@ -673,6 +673,7 @@
     from {
       transform: rotate(0deg);
     }
+
     to {
       transform: rotate(359deg);
     }
@@ -1337,6 +1338,7 @@
   .grow {
     transition: all 0.2s ease-in-out;
   }
+
   .grow:hover {
     transform: scale(1.1);
   }
@@ -1357,6 +1359,7 @@
     from {
       transform: rotate(0deg);
     }
+
     to {
       transform: rotate(359deg);
     }
