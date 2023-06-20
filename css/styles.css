@@ -507,9 +507,15 @@
   /* Contact form section */
   #foot {
     box-sizing: border-box;
-    background-color: #1c33ff;
-    border-top-left-radius: 100px;
+    /* background-color: #1c33ff; */
+    /* border-top-left-radius: 100px; */
+    background-image: url("../images/blue-background.png");
     background-repeat: no-repeat;
+    background-position: center;
+    
+
+    /* background-position: 0% 1.5%; */
+    /* border-top-left-radius: 100px; */
     width: 100%;
     height: auto;
     background-position: 0% 1.5%;
@@ -1196,8 +1202,9 @@
   /* Contact form section */
   #foot {
     box-sizing: border-box;
-    background-color: #1c33ff;
-    border-top-left-radius: 200px;
+    /* background-color: #1c33ff;
+    border-top-left-radius: 200px; */
+    background-image: url("../images/bg-contact.png");
     background-size: cover;
     background-position: right 100% top 0%;
     background-repeat: no-repeat;
