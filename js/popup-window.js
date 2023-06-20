@@ -78,13 +78,23 @@ document.body.onload = function() {
     par2.innerHTML = "This is another paragraph";
     par2.className = 'about poppins';
     par2.style.textAlign = "center";
+
     grid2.appendChild(par2);
+    
     const div1 = document.createElement('div');
-    div1.innerHTML = <img src= ${array[i].imgmov} alt="job card" class="work1-img grow">;
+    div1.innerHTML = `<img src= ${array[0].imgmov} alt="job card" class="work1-img grow">`;
+
+  }
+}
+
+    // grid2.appendChild(par2);
+
+    // const div1 = document.createElement('div');
+    // div1.innerHTML = `<img src= ${array[i].imgmov} alt="job card" class="work1-img grow">`;
     
 
-    for (let i = 0; i < array.length; i++) {
-      {/* const jobCard = grid2.createElement('article');
+    // for (let i = 0; i < array.length; i++) {
+      /* const jobCard = grid2.createElement('article');
       const jobCardDiv = grid2.createElement('div');
       jobCard.className = 'grid-1';
       jobCardDiv.className = 'work1';
@@ -92,9 +102,9 @@ document.body.onload = function() {
       jobCardDiv.innerHTML = `<img src= ${array[i].imgmov} alt="job card" class="work1-img grow">
       <class="work1">
       <h2 class="work-text1 poppins">${array[i].title1}</h2>`;
-      grid2.appendChild(jobCardDiv); */}
-    }
-  }
+  //     grid2.appendChild(jobCardDiv); */
+  //   }
+  // }
 
 
   // if (screen.width < 768) {
@@ -132,3 +142,4 @@ document.body.onload = function() {
 
 //   // }
 // }
+
