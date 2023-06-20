@@ -21,7 +21,6 @@
   header {
     width: 100%;
     box-sizing: border-box;
-    margin-left: 24px;
     margin-bottom: 90px;
   }
 
@@ -62,12 +61,62 @@
 
   .container-2 {
     font-family: Poppins, sans-serif;
+    width: 90%;
     margin-top: 24px;
-    margin-left: 0;
-    margin-right: 48px;
+    margin-left: 5%;
+    margin-right: 5%;
     display: flex;
     align-items: center;
     justify-content: space-between;
+  }
+
+  /* .toolbar {
+    position: relative;
+  } */
+
+  .overlay {
+    display: none;
+  }
+
+  .show {
+    position: fixed;
+    display: block;
+    background-color: rgb(96, 112, 255, 0.8);
+    width: 100%;
+    height: 810px;
+    left: 0;
+    top: 0;
+    right: 0;
+  }
+
+  .toolbar-2 {
+    display: flex;
+    justify-content: right;
+    margin-right: 24px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+  }
+
+  .overlay-ul {
+    margin-top: 15px;
+  }
+
+  .overlay-li {
+    padding-left: 20px;
+  }
+
+  .a-li {
+    color: #fff;
+    font-size: 32px;
+    line-height: 56px;
+    font-weight: 550;
+    margin-left: 2%;
+    margin-top: 26%;
+  }
+
+  .cancel1 {
+    padding-top: 10px;
+    padding-left: 8px;
   }
 
   .container-5 {
@@ -76,7 +125,7 @@
 
   /* Section Headline */
   .headline {
-    margin: 20px, 0, 20px, 0;
+    margin: 20px 0 20px 0;
     color: #172b4d;
     width: 100%;
     display: flex;
@@ -90,16 +139,18 @@
   }
 
   .name {
-    width: 85%;
+    width: 90%;
     margin-top: 20px;
-    margin-left: 24px;
+    margin-left: 5%;
+    margin-right: 5%;
   }
 
   .desc {
     margin-top: 14px;
-    margin-left: 24px;
+    margin-left: 5%;
+    margin-right: 5%;
     font-weight: 400;
-    width: 85%;
+    width: 90%;
     line-height: 1.5;
     text-align: justify;
   }
@@ -107,13 +158,15 @@
   .connect {
     margin-top: 20px;
     margin-bottom: 10px;
-    margin-left: 24px;
-    color: #1c33ff;
+    margin-left: 5%;
+    margin-right: 5%;
+    color: #7f8cff;
     font-weight: 400;
   }
 
   .container-3 {
-    margin-left: 24px;
+    margin-left: 5%;
+    margin-right: 5%;
     display: flex;
   }
 
@@ -281,7 +334,7 @@
 
   /* Section About Myself */
   .about_myself {
-    margin: 20px, 0, 20px, 0;
+    margin: 20px 0 20px 0;
     color: #172b4d;
     display: flex;
     flex-direction: column;
@@ -293,21 +346,25 @@
     font-size: 40px;
     font-weight: 700;
     line-height: 52px;
-    margin-left: 24px;
+    margin-left: 5%;
+    margin-right: 5%;
   }
 
   .desc4 {
     margin-top: 14px;
-    margin-left: 24px;
+    margin-left: 5%;
+    margin-right: 5%;
     font-weight: 400;
-    width: 85%;
+    width: 90%;
     line-height: 1.5;
     text-align: justify;
   }
 
   .container-4 {
     display: flex;
-    margin: 0 20px 20px 24px;
+    margin-bottom: 20px;
+    margin-left: 5%;
+    margin-right: 5%;
   }
 
   .my-resume {
@@ -359,7 +416,10 @@
   .languages {
     display: flex;
     justify-content: space-between;
-    margin: 30px auto 15px 26px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    margin-left: 5%;
+    margin-right: 5%;
     width: 80%;
   }
 
@@ -367,7 +427,10 @@
   .skills {
     display: flex;
     justify-content: space-between;
-    margin: 15px auto 30px 26px;
+    margin-top: 15px;
+    margin-bottom: 30px;
+    margin-left: 5%;
+    margin-right: 5%;
     width: 80%;
   }
 
@@ -444,8 +507,11 @@
   /* Contact form section */
   #foot {
     box-sizing: border-box;
-    background-color: #1c33ff;
-    border-top-left-radius: 100px;
+
+    /* background-color: #1c33ff; */
+
+    /* border-top-left-radius: 100px; */
+    background-image: url("../images/blue-background.png");
     background-repeat: no-repeat;
     width: 100%;
     height: auto;
@@ -596,18 +662,34 @@
     font-size: 48px;
   }
 
-  .grow { transition: all 0.2s ease-in-out; }
-  .grow:hover { transform: scale(1.1); }
+  .grow {
+    transition: all 0.2s ease-in-out;
+  }
 
-  .paragraph2:hover { transform: translate(16px, 0); }
+  .grow:hover {
+    transform: scale(1.1);
+  }
 
-  .rotate { animation: rotation 2s linear; }
+  .paragraph2:hover {
+    transform: translate(16px, 0);
+  }
 
-  .rotate:hover { animation: rotation 2s linear; }
+  .rotate {
+    animation: rotation 2s linear;
+  }
+
+  .rotate:hover {
+    animation: rotation 2s linear;
+  }
 
   @keyframes rotation {
-    from { transform: rotate(0deg); }
-    to { transform: rotate(359deg); }
+    from {
+      transform: rotate(0deg);
+    }
+
+    to {
+      transform: rotate(359deg);
+    }
   }
 }
 
@@ -678,6 +760,10 @@
 
   /* Toolbar */
   .container-2 {
+    display: none;
+  }
+
+  .overlay {
     display: none;
   }
 
@@ -787,7 +873,7 @@
   .work1b {
     background-color: #fff;
     width: 50%;
-    padding: 20px auto auto 20px;
+    padding: 20px;
     display: flex;
     flex-direction: column;
   }
@@ -809,7 +895,7 @@
   .work1b-img {
     max-width: 90%;
     height: auto;
-    object-fit: resize;
+    object-fit: scale-down;
   }
 
   .work-text1b {
@@ -1113,8 +1199,10 @@
   /* Contact form section */
   #foot {
     box-sizing: border-box;
-    background-color: #1c33ff;
-    border-top-left-radius: 200px;
+
+    /* background-color: #1c33ff;
+    border-top-left-radius: 200px; */
+    background-image: url("../images/bg-contact.png");
     background-size: cover;
     background-position: right 100% top 0%;
     background-repeat: no-repeat;
@@ -1267,17 +1355,33 @@
     margin: 0 auto 70px auto;
   }
 
-  .grow { transition: all 0.2s ease-in-out; }
-  .grow:hover { transform: scale(1.1); }
+  .grow {
+    transition: all 0.2s ease-in-out;
+  }
 
-  .paragraph2:hover { transform: translate(16px, 0); }
+  .grow:hover {
+    transform: scale(1.1);
+  }
 
-  .rotate { animation: rotation 2s linear; }
+  .paragraph2:hover {
+    transform: translate(16px, 0);
+  }
 
-  .rotate:hover { animation: rotation 2s linear; }
+  .rotate {
+    animation: rotation 2s linear;
+  }
+
+  .rotate:hover {
+    animation: rotation 2s linear;
+  }
 
   @keyframes rotation {
-    from { transform: rotate(0deg); }
-    to { transform: rotate(359deg); }
+    from {
+      transform: rotate(0deg);
+    }
+
+    to {
+      transform: rotate(359deg);
+    }
   }
 }
