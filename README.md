@@ -27,12 +27,13 @@
 
 mv_portfolio2!
 
-**mv_portfolio2** It's a Portfolio responsive web app! This is a project branch for deployment of the Portfolio project in GitHub Pages.
+**mv_portfolio2** It's a Portfolio responsive web app! This is a project branch for validating the contact form of the Portfolio project.
 
 ## 🛠️ Built With <a name="built-with">
 ### Tech Stack <a name="tech-stack"></a>
 - HTML
 - CSS
+- JAVASCRIPT
 
 </a>
 
@@ -44,6 +45,7 @@ mv_portfolio2!
 - **A webpage with the use of linters**
 - **Flexbox & Grid**
 - **Responsive Web Design**
+- **Basic interactivity with JavaScript**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -89,6 +91,8 @@ Clone this repository to your desired folder by running the following commands i
   npm install --save-dev hint@7.x
 
   npm install --save-dev stylelint@13.x stylelint-scss@3.x stylelint-config-standard@21.x stylelint-csstree-validator@1.x
+
+  npm install --save-dev eslint@7.x eslint-config-airbnb-base@14.x eslint-plugin-import@2.x babel-eslint@10.x
 ```
 
 ### Usage
@@ -120,10 +124,10 @@ To run tests, run the following command:
 - Twitter: [@jcmunav63](https://twitter.com/jcmunav63)
 - LinkedIn: [@juan-carlos-muñoz-navarrete](https://www.linkedin.com/in/juan-carlos-mu%C3%B1oz-navarrete-5a15b6276/)
 
-👤 **Adrián Juárez**
-- Github: [@AdrianScharff](https://github.com/AdrianScharff)
-- Twitter: [@CryptogodAdrian](https://twitter.com/CryptogodAdrian)
-- LinkedIn: [Adrián Juárez](https://www.linkedin.com/in/adri%C3%A1n-ju%C3%A1rez-17a51b263/)
+👤 **El Mehdi Ahmidou**
+- Github: [@ahmidou09](https://github.com/)
+- Twitter: [@Twitter](https://twitter.com/)
+- LinkedIn: [Linkedin](https://www.linkedin.com/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -131,8 +135,7 @@ To run tests, run the following command:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- **Mobile menu**
-- **Details modal window**
+- **Local storage in the browser**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
