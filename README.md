@@ -125,9 +125,9 @@ To run tests, run the following command:
 - LinkedIn: [@juan-carlos-muñoz-navarrete](https://www.linkedin.com/in/juan-carlos-mu%C3%B1oz-navarrete-5a15b6276/)
 
 👤 **El Mehdi Ahmidou**
-- Github: [@ahmidou09](https://github.com/)
-- Twitter: [@Twitter](https://twitter.com/)
-- LinkedIn: [Linkedin](https://www.linkedin.com/)
+- GitHub: [@ahmidou09](https://github.com/ahmidou09)
+- Twitter: [@el_ahmidou](https://twitter.com/el_ahmidou)
+- LinkedIn: [el mehdi ahmidou](https://www.linkedin.com/in/el-mehdi-ahmidou-312590125/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
