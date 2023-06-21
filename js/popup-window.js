@@ -58,7 +58,6 @@ const array = [
 
 
 document.body.onload = function() {
-  // alert('La página terminó de cargar');
   const grid2 = document.querySelector("#grid2");
 
   const par = document.createElement('p');
@@ -73,16 +72,36 @@ document.body.onload = function() {
   par3.style.textAlign = "center";
   grid2.appendChild(par3);
 
+  const par2 = document.createElement('p');
+  par2.innerHTML = "This is another paragraph";
+  par2.className = 'about poppins';
+  par2.style.textAlign = "center";
+  grid2.appendChild(par2);
+
+  const div1 = document.createElement('div');
+  div1.classList.add("div1");
+  const img1 = document.createElement('img');
+  img1.classList.add("img1");
+
+  img1.src = "./images/job1.png";
+  var put1 = document.getElementsByClassName("img1");
+  put1.appendChild(img1);
+
+  // img1.innerHTML = `<img src= './images/job1.png' alt="job card" class="work1-img grow">`;
+  // div1.appendChild(img1);
+  // grid2.appendChild(div1);
+
   if (screen.width < 768) {
     const par2 = document.createElement('p');
     par2.innerHTML = "This is another paragraph";
     par2.className = 'about poppins';
     par2.style.textAlign = "center";
-
     grid2.appendChild(par2);
     
-    const div1 = document.createElement('div');
-    div1.innerHTML = `<img src= ${array[0].imgmov} alt="job card" class="work1-img grow">`;
+    // const div1 = document.createElement('div');
+    // div1.innerHTML = `<img src= ${array[0].imagemov} alt="job card" class="work1-img grow">`;
+    // div1.appendChild(img1);
+    // grid2.appendChild(div1);
 
   }
 }
