@@ -70,10 +70,6 @@
     justify-content: space-between;
   }
 
-  /* .toolbar {
-    position: relative;
-  } */
-
   .overlay {
     display: none;
   }
@@ -507,10 +503,6 @@
   /* Contact form section */
   #foot {
     box-sizing: border-box;
-
-    /* background-color: #1c33ff; */
-
-    /* border-top-left-radius: 100px; */
     background-image: url("../images/blue-background.png");
     background-repeat: no-repeat;
     width: 100%;
@@ -649,6 +641,52 @@
     border-radius: 8px;
     width: 132px;
     margin: 0 0 10% 5%;
+  }
+
+  #myModal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 45%;
+    left: 0%;
+    top: 0%;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(39, 4, 197, 0.4);
+  }
+
+  .modal-content {
+    display: flex;
+    background-color: #fefefe;
+    justify-content: space-around;
+    align-items: center;
+    margin: auto;
+    vertical-align: middle;
+    padding: 5px;
+    border: 1px solid blue;
+    border-radius: 6px;
+    width: 80%;
+    font-family: "poppins", sans-serif;
+    font-size: 18px;
+    text-align: center;
+    color: #2230d2;
+    font-weight: 400;
+  }
+
+  .close {
+    color: blue;
+    font-size: 38px;
+    font-weight: bold;
+    padding-bottom: 10px;
+  }
+
+  .close:hover,
+  .close:focus {
+    color: red;
+    text-decoration: none;
+    cursor: pointer;
+    padding-bottom: 10px;
   }
 
   #delay {
@@ -1199,9 +1237,6 @@
   /* Contact form section */
   #foot {
     box-sizing: border-box;
-
-    /* background-color: #1c33ff;
-    border-top-left-radius: 200px; */
     background-image: url("../images/bg-contact.png");
     background-size: cover;
     background-position: right 100% top 0%;
@@ -1353,6 +1388,52 @@
     border-radius: 8px;
     width: 132px;
     margin: 0 auto 70px auto;
+  }
+
+  #myModal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 23%;
+    left: 0%;
+    top: 0%;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(39, 4, 197, 0.4);
+  }
+
+  .modal-content {
+    display: flex;
+    background-color: #fefefe;
+    justify-content: space-around;
+    align-items: center;
+    margin: auto;
+    vertical-align: middle;
+    padding: 5px;
+    border: 1px solid blue;
+    border-radius: 6px;
+    width: 80%;
+    font-family: "poppins", sans-serif;
+    font-size: 18px;
+    text-align: center;
+    color: #2230d2;
+    font-weight: 400;
+  }
+
+  .close {
+    color: blue;
+    font-size: 38px;
+    font-weight: bold;
+    padding-bottom: 10px;
+  }
+
+  .close:hover,
+  .close:focus {
+    color: red;
+    text-decoration: none;
+    cursor: pointer;
+    padding-bottom: 10px;
   }
 
   .grow {

@@ -335,7 +335,7 @@
     <footer id="foot">
         <h2 id="contactf" class="poppins">Contact me</h2>
         <p id="desc3" class="poppins paragraph2">If you have an application you are interested in developing, a feature that you need built or a project that needs coding.  I'd love to help with it!</p>
-        <form action="https://formspree.io/f/mjvdqaka" method="post" class="form1">
+        <form id="form1" action="https://formspree.io/f/mjvdqaka" method="post" class="form1">
           <div class="box2">
               <label for="names" class="label">Name:</label>
               <input name="names" id="names" type="text" class="poppins" placeholder="Lorem Ipsum"  maxlength="30" required>
@@ -349,8 +349,15 @@
               <textarea id="textarea" class="poppins" name="message" rows="5" cols="30" placeholder="Write your message here..." maxlength="500" required></textarea>
           </div>
           <button type="submit" id="getintouch" class="button3">Get in touch</button>
+          <div id="myModal" class="modal">
+            <div class="modal-content">
+              <p><strong>ERROR: </strong>Email letters must be in lowercase!</p>
+              <p class="close">&times;</p>
+            </div>
+          </div>
         </form>
     </footer>
     <script src="./js/mobile.js"></script>
+    <script src="./js/validation.js"></script>
   </body>
 </html>
