@@ -23,7 +23,7 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [mv_portfolio2 - Portfolio: Application deployment.] <a name="about-project"></a>
+# 📖 [mv_portfolio2 - Portfolio: Validate contact form.] <a name="about-project"></a>
 
 mv_portfolio2!
 
@@ -108,9 +108,11 @@ To run the project, execute the following command:
 To run tests, run the following command:
 
 ```sh
-  npx hint . 
+  npx hint . --fix
   
   npx stylelint "**/*.{css,scss}" --fix
+
+  npx eslint . --fix
 ```
 
 <!-- AUTHORS -->
