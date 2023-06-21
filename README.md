@@ -23,11 +23,11 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [mv_portfolio2 - Portfolio: Validate contact form.] <a name="about-project"></a>
+# 📖 [mv_portfolio2 - Portfolio: Preserve data in the browser.] <a name="about-project"></a>
 
 mv_portfolio2!
 
-**mv_portfolio2** It's a Portfolio responsive web app! This is a project branch for validating the contact form of the Portfolio project.
+**mv_portfolio2** It's a Portfolio responsive web app! This is a project branch for preserving data in the browser, when working in the contact form.
 
 ## 🛠️ Built With <a name="built-with">
 ### Tech Stack <a name="tech-stack"></a>
@@ -46,6 +46,7 @@ mv_portfolio2!
 - **Flexbox & Grid**
 - **Responsive Web Design**
 - **Basic interactivity with JavaScript**
+- **Data validation and storage in the browser**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
