@@ -8,12 +8,12 @@ menuBtn.addEventListener('click', () => {
   overlay.classList.add('show');
 });
 
-closeBtn.addEventListener('click', () => {
+closeBtn.addEventListener('clicked', () => {
   overlay.classList.remove('show');
 });
 
 overlay.querySelectorAll('a').forEach((link) => {
-  link.addEventListener('click', () => {
+  link.addEventListener('clicked', () => {
     overlay.classList.remove('show');
   });
 });
