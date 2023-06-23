@@ -202,6 +202,9 @@
     display: none;
   }
 
+  .grid-1b-2 {
+    display: none;
+  }
   .grid2 {
     background-color: #959ba3;
     width: 100%;
@@ -883,6 +886,10 @@
     grid-template-columns: 100%;
     grid-template-rows: 1fr 1fr 1fr 1fr;
     display: block;
+  }
+
+  .grid-1b-2 {
+    display: none;
   }
 
   .grid2 {

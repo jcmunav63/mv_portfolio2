@@ -61,7 +61,7 @@ const array = [{
 
 // CREATE WORK SECTION
 const grid = document.querySelector("#grid2");
-grid.classList.add('grid-1b');
+grid.classList.add('grid-1b-2');
 
 window.addEventListener("load", function(event) {
   for (let i = 0; i < array.length; i += 1) {
@@ -164,9 +164,13 @@ function clickButtons (i) {
   });
 }
 
-array.forEach((job) => {
+/* array.forEach((job) => {
   const project = document.getElementById(job.id);
   project.addEventListener('click', () => {
     clickButtons(job);
   });
-});
+}); */
+
+const seeProject = document.querySelectorAll('.see-project');
+
+console.log(seeProject)
