@@ -59,42 +59,9 @@ const array = [{
   }
 ];
 
+// CREATE WORK SECTION
 const grid = document.querySelector("#grid2");
 grid.classList.add('grid-1b');
-
-// function createJobs() {
-//   const row = document.createElement('div');
-//   row.classList.add('rows');
-//   const div1 = document.createElement('div');
-//   div1.classList.add('work1b');
-//   div1.innerHTML += `
-//     <div class="photo2">
-//         <img class="work1b-img grow" alt="work 1" width="" height="" src="images/job3b.png">
-//     </div>
-//     <h2 class="work-text1b poppins">Tonic</h2>
-//     <ul class="flex1">
-//         <li><p class="canopy poppins">CANOPY</p></li>
-//         <li><img class="dot" alt="" width="16px" height="16px" src="images/dot1.png"></li>
-//         <li><p class="bed poppins">Back End Dev</p></li>
-//         <li><p><img class="dot" alt="" width="16px" height="16px" src="images/dot1.png"></p></li>
-//         <li><p class="year poppins">2015</p></li>
-//     </ul>
-//     <p class="desc2 poppins">A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
-//     <ul class="flex2">
-//         <li><p class="stack poppins">html</p></li>
-//         <li><p class="stack poppins">css</p></li>
-//         <li><p class="stack poppins">javascript</p></li>
-//     </ul>
-//     <nav>
-//         <button type="button" class="see-project poppins">See project</button>
-//     </nav>
-//   `;
-//   grid.appendChild(row);
-//   row.appendChild(div1);
-// };
-
-// const grid = document.querySelector("#grid2");
-// grid.classList.add('grid-1b');
 
 window.addEventListener("load", function(event) {
   for (let i = 0; i < array.length; i += 1) {
@@ -142,11 +109,10 @@ window.addEventListener("load", function(event) {
       row.appendChild(div1);
   };
 
+  const gridm = document.querySelector("#grid3");
   if (screen.width < 768) {
-    grid.classList.add('grid-1');
+    gridm.classList.add('grid-1');
     for (let i = 0; i < array.length; i += 1) {
-      // const row = document.createElement('div');
-      // row.classList.add('rows');
       const div1 = document.createElement('div');
       div1.classList.add('work1');
       div1.innerHTML += `
@@ -162,50 +128,31 @@ window.addEventListener("load", function(event) {
             <li><p class="year poppins">${array[i].work1[2]}</p></li>
         </ul>
         <p class="desc2 poppins">${array[i].descr1}</p>
-        `;
-        grid.appendChild(row);
-        row.appendChild(div1);
-    };
-  };
-});
-
-addEventListener("resize", (event) => {
-  if (screen.width < 768) {
-    grid.classList.add('grid-1');
-    for (let i = 0; i < array.length; i += 1) {
-      // const row = document.createElement('div');
-      // row.classList.add('rows');
-      const div1 = document.createElement('div');
-      div1.classList.add('work1');
-      div1.innerHTML += `
-        <div class="photo1">
-            <img class="work1-img grow" alt="work 1" src= ${array[i].imagemov}>
-        </div>
-        <h2 class="work-text1 poppins">${array[i].title1}</h2>
-        <ul class="flex1">
-            <li><p class="canopy poppins">${array[i].work1[0]}</p></li>
-            <li><img class="dot" alt="" width="16px" height="16px" src="./images/dot1.png"></li>
-            <li><p class="bed poppins">${array[i].work1[1]}</p></li>
-            <li><p><img class="dot" alt="" width="16px" height="16px" src="./images/dot1.png"></p></li>
-            <li><p class="year poppins">${array[i].work1[2]}</p></li>
+        <ul class="flex2">
+          <li class="stack poppins">${array[i].techstack1[0]}</li>
+          <li class="stack poppins">${array[i].techstack1[1]}</li>
+          <li class="stack poppins">${array[i].techstack1[2]}</li>
         </ul>
-        <p class="desc2 poppins">${array[i].descr1}</p>
+        <nav>
+          <button class="see-project poppins" id="${array[i].id}" >See project</button>
+        </nav>
         `;
-        grid.appendChild(row);
+        gridm.appendChild(row);
         row.appendChild(div1);
     };
   };
 });
 
+// POPUP WORK DETAILS WINDOW
 const modal = document.getElementById('modal');
 modal.classList.add('overlay');
 
 function clickButtons (i) {
   modal.innerHTML = `
-  <div class="">
+  <div class="works">
     <div class="grid-1">
-      <h2 class="frame-mobile-h2">${array[i].title2}</h2>
-      <span id="close-modal" class="cancel1">&times;</span>
+      <h2 class="work-text1b">${array[i].title2}</h2>
+      <p id="close-modal" id="cancel1" class="cancel1">&times;</p>
     </div>
   </div>
   `;
@@ -216,12 +163,9 @@ function clickButtons (i) {
   });
 }
 
-const buttons = document.querySelectorAll('.see-project');
-
-buttons.forEach((button, i) => {
-  button.addEventListener('click', () => {
-    modal.classList.remove('show');
-    clickButtons(i);
+array.forEach((job) => {
+  const project = document.getElementById(job.id);
+  project.addEventListener('click', () => {
+    clickButtons(job);
   });
 });
-
