@@ -67,13 +67,13 @@ window.addEventListener("load", function(event) {
   for (let i = 0; i < array.length; i += 1) {
     const row = document.createElement('div');
     row.classList.add('rows');
-    if (i === 0 || i === 2) {
+    // if (i % 2 === 0) {
       row.innerHTML += `
       <div class="photo2">
         <img class="work1b-img grow" alt="work 1" src= ${array[i].imagedesk}>
       </div>
       `;
-    }
+
     const div1 = document.createElement('div');
     div1.classList.add('work1b');
     div1.innerHTML += `
@@ -97,14 +97,11 @@ window.addEventListener("load", function(event) {
         <button class="see-project poppins" id="${array[i].id}" >See project</button>
       </nav>
       `;
+
       if (i === 1 || i === 3) {
-        row.innerHTML += `
-        <div class="photo2">
-          <img class="work1b-img grow" alt="work 1" src= ${array[i].imagedesk}>
-        </div>
-        `;
+        row.classList.add('reverse');
       }
-      
+
       grid.appendChild(row);
       row.appendChild(div1);
   };
@@ -147,7 +144,7 @@ window.addEventListener("load", function(event) {
 const modal = document.getElementById('modal');
 modal.classList.add('overlay');
 
-function clickButtons (i) {
+function showModal (i) {
   modal.innerHTML = `
   <div class="works">
     <div class="grid-1">
@@ -157,16 +154,25 @@ function clickButtons (i) {
   </div>
   `;
   document.body.appendChild(modal);
+  modal.classList.add('show');
 
   const closeButton = document.getElementById('cancel1');
   closeButton.addEventListener('click', () => {
-    modal.classList.add('overlay');
+    modal.classList.remove('show');
   });
 }
 
-array.forEach((job) => {
-  const project = document.getElementById(job.id);
-  project.addEventListener('click', () => {
-    clickButtons(job);
+const seeButtons = document.querySelectorAll('.see-project');
+console.log(seeButtons);
+seeButtons.forEach((button) => {
+  button.addEventListener('click', () => {
+    showModal(button.id);
   });
 });
+
+// array.forEach((job) => {
+//   const project = document.getElementById(job.id);
+//   project.addEventListener('click', () => {
+//     showModal(job);
+//   });
+// });
