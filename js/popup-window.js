@@ -61,7 +61,7 @@ const array = [{
 
 // CREATE WORK SECTION
 const grid = document.querySelector("#grid2");
-grid.classList.add('grid-1b-2');
+grid.classList.add('grid-1b'); // grid-1b-2
 
 window.addEventListener("load", function(event) {
   for (let i = 0; i < array.length; i += 1) {
@@ -106,86 +106,89 @@ window.addEventListener("load", function(event) {
       row.appendChild(div1);
   };
 
-  const gridm = document.querySelector("#grid3");
-  /* if (screen.width < 768) {
-    gridm.classList.add('grid-1');
-    for (let i = 0; i < array.length; i += 1) {
-      const div1 = document.createElement('div');
-      div1.classList.add('work1');
-      div1.innerHTML += `
-        <div class="photo1">
-            <img class="work1-img grow" alt="work 1" src= ${array[i].imagemov}>
-        </div>
-        <h2 class="work-text1 poppins">${array[i].title1}</h2>
-        <ul class="flex1">
-            <li><p class="canopy poppins">${array[i].work1[0]}</p></li>
-            <li><img class="dot" alt="" width="16px" height="16px" src="./images/dot1.png"></li>
-            <li><p class="bed poppins">${array[i].work1[1]}</p></li>
-            <li><p><img class="dot" alt="" width="16px" height="16px" src="./images/dot1.png"></p></li>
-            <li><p class="year poppins">${array[i].work1[2]}</p></li>
-        </ul>
-        <p class="desc2 poppins">${array[i].descr1}</p>
-        <ul class="flex2">
-          <li class="stack poppins">${array[i].techstack1[0]}</li>
-          <li class="stack poppins">${array[i].techstack1[1]}</li>
-          <li class="stack poppins">${array[i].techstack1[2]}</li>
-        </ul>
-        <nav>
-          <button class="see-project poppins" id="${array[i].id}" >See project</button>
-        </nav>
-        `;
-        gridm.appendChild(row);
-        row.appendChild(div1);
-    };
-  }; */
+  detail.innerHTML = "";
+
+  // const gridm = document.querySelector("#grid3");
 });
 
 // POPUP WORK DETAILS WINDOW
-const modal = document.getElementById('modal');
-modal.classList.add('overlay');
+const detailContainer = document.querySelector('.detail-container');
+const detail = document.querySelector('.detail');
+const btnClose = document.querySelector('.btn-close')
 
-function showModal (i) {
-  modal.innerHTML = `
-  <div class="works">
-    <div class="grid-1">
-      <h2 class="work-text1b">${array[i].title2}</h2>
-      <p id="close-modal" id="cancel1" class="cancel1">&times;</p>
+seeProject.forEach((btn) => {
+  btn.addEventListener('click', () => {
+
+  const html = `
+    <h2 class="work-text1b poppins">Tonic</h2>
+    <ul class="flex1">
+      <li><p class="canopy poppins">CANOPY</p></li>
+      <li><img class="dot" alt="" width="16px" height="16px" src="images/dot1.png"/></li>
+      <li><p class="bed poppins">Back End Dev</p></li>
+      <li><img class="dot" alt="" width="16px" height="16px" src="images/dot1.png"/></li>
+      <li><p class="year poppins">2015</p></li>
+    </ul>
+    <div class="photo">
+      <img class="img" alt="work 1" width="" height="" src="images/job1b.png"/>
     </div>
-  </div>
-  `;
-  document.body.appendChild(modal);
-  modal.classList.add('show');
+    <div class="box">
+      <div class="box-text">
+        <p class="para">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the indsutry's standard dummy text ever since the 1500s,
+        when an unknown printer took a galley of type and scrambled it 1960s. Lorem ipsum dolor is simply dummy text of the printing and typesetting industry.</p>
+        <p class="para">Lorem ipsum dolor is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the indsutry's standard dummy text ever since the 1500s,
+        when an unknown printer took a galley of type and scrambled it 1960s with the releorem. Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s
+        with the releawn printer took a galley of type and scrambled it 1960s.</p>
+      </div>
+      <div class="tags-box">
+        <ul class="flex2">
+          <li><p class="stack poppins">html</p></li>
+          <li><p class="stack poppins">css</p></li>
+          <li><p class="stack poppins">javascript</p></li>
+        </ul>
+        <div class="btn-box">
+          <button type="button" class="see-project poppins">See live</button>
+          <button type="button" class="see-project poppins">See source</button>
+        </div>
+      </div>
+    </div>`;
 
-  const closeButton = document.getElementById('cancel1');
-  closeButton.addEventListener('click', () => {
-    modal.classList.remove('show');
-  });
-}
-
-<<<<<<< HEAD
-/* array.forEach((job) => {
-  const project = document.getElementById(job.id);
-  project.addEventListener('click', () => {
-    clickButtons(job);
-  });
-}); */
-
-const seeProject = document.querySelectorAll('.see-project');
-
-console.log(seeProject)
-=======
-const seeButtons = document.querySelectorAll('.see-project');
-console.log(seeButtons);
-seeButtons.forEach((button) => {
-  button.addEventListener('click', () => {
-    showModal(button.id);
+    detail.insertAdjacentHTML('afterbegin', html);
+    detailContainer.classList.add('show-detail')
   });
 });
 
-// array.forEach((job) => {
-//   const project = document.getElementById(job.id);
-//   project.addEventListener('click', () => {
-//     showModal(job);
+btnClose.addEventListener('click', () => {
+  detailContainer.classList.remove('show-detail')
+  detail.innerHTML = "";
+})
+
+// **********************************
+
+// const modal = document.getElementById('modal');
+// modal.classList.add('overlay');
+
+// function showModal (i) {
+//   modal.innerHTML = `
+//   <div class="works">
+//     <div class="grid-1">
+//       <h2 class="work-text1b">${array[i].title2}</h2>
+//       <p id="close-modal" id="cancel1" class="cancel1">&times;</p>
+//     </div>
+//   </div>
+//   `;
+//   document.body.appendChild(modal);
+//   modal.classList.add('show');
+
+//   const closeButton = document.getElementById('cancel1');
+//   closeButton.addEventListener('click', () => {
+//     modal.classList.remove('show');
+//   });
+// }
+
+// const seeButtons = document.querySelectorAll('.see-project');
+// console.log(seeButtons);
+// seeButtons.forEach((button) => {
+//   button.addEventListener('click', () => {
+//     showModal(button.id);
 //   });
 // });
->>>>>>> 4370386312c1c0929ae5ea3b95534b905990faff

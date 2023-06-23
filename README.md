@@ -23,7 +23,7 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [mv_portfolio2 - Portfolio: Application deployment.] <a name="about-project"></a>
+# 📖 [mv_portfolio2 - Portfolio: Popup details window.] <a name="about-project"></a>
 
 mv_portfolio2!
 
