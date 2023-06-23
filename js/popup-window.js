@@ -156,6 +156,7 @@ function clickButtons (i) {
     </div>
   </div>
   `;
+  document.body.appendChild(modal);
 
   const closeButton = document.getElementById('cancel1');
   closeButton.addEventListener('click', () => {
