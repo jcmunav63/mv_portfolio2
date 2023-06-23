@@ -110,7 +110,7 @@ window.addEventListener("load", function(event) {
   };
 
   const gridm = document.querySelector("#grid3");
-  if (screen.width < 768) {
+  /* if (screen.width < 768) {
     gridm.classList.add('grid-1');
     for (let i = 0; i < array.length; i += 1) {
       const div1 = document.createElement('div');
@@ -140,7 +140,7 @@ window.addEventListener("load", function(event) {
         gridm.appendChild(row);
         row.appendChild(div1);
     };
-  };
+  }; */
 });
 
 // POPUP WORK DETAILS WINDOW
