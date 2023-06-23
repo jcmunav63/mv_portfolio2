@@ -342,7 +342,7 @@
   }
 
   .hidegr {
-    display: block;
+    display: none;
   }
 
   .hidegr-2 {
@@ -666,6 +666,10 @@
     border-radius: 8px;
     width: 132px;
     margin: 0 0 10% 5%;
+  }
+
+  .hidegr-1 {
+    display: block;
   }
 
   #delay {
@@ -1053,6 +1057,14 @@
 
   .hidegr {
     display: none;
+  }
+
+  .hidegr-2 {
+    display: none;
+  }
+
+  .reverse {
+    flex-direction: row-reverse;
   }
 
   /* Section About Myself */
