@@ -8,7 +8,7 @@ const array = [{
     descr1: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
     descr2: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
     techstack1: ['HTML', 'CSS', 'JavaScript'],
-    techstack2: ['html', 'css', 'JavaScript'],
+    techstack2: ['html', 'css', 'JavaScript', 'JavaScript'],
     button: 'See Project',
     id: '1',
   },
@@ -61,18 +61,17 @@ const array = [{
 
 // CREATE WORK SECTION
 const grid = document.querySelector("#grid2");
-grid.classList.add('grid-1b'); // grid-1b-2
+grid.classList.add('grid-1b');
 
 window.addEventListener("load", function(event) {
   for (let i = 0; i < array.length; i += 1) {
     const row = document.createElement('div');
     row.classList.add('rows');
-    // if (i % 2 === 0) {
-      row.innerHTML += `
-      <div class="photo2">
-        <img class="work1b-img grow" alt="work 1" src= ${array[i].imagedesk}>
-      </div>
-      `;
+    row.innerHTML += `
+    <div class="photo2">
+      <img class="work1b-img grow" alt="work 1" src= ${array[i].imagedesk}>
+    </div>
+    `;
 
     const div1 = document.createElement('div');
     div1.classList.add('work1b');
@@ -108,10 +107,10 @@ window.addEventListener("load", function(event) {
 
   detail.innerHTML = "";
 
-  // const gridm = document.querySelector("#grid3");
 });
 
 // POPUP WORK DETAILS WINDOW
+const seeProject = document.querySelectorAll('.open-window');
 const detailContainer = document.querySelector('.detail-container');
 const detail = document.querySelector('.detail');
 const btnClose = document.querySelector('.btn-close')
