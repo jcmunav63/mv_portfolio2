@@ -70,10 +70,6 @@
     justify-content: space-between;
   }
 
-  /* .toolbar {
-    position: relative;
-  } */
-
   .overlay {
     display: none;
   }
@@ -628,10 +624,6 @@
   /* Contact form section */
   #foot {
     box-sizing: border-box;
-
-    /* background-color: #1c33ff; */
-
-    /* border-top-left-radius: 100px; */
     background-image: url("../images/blue-background.png");
     background-repeat: no-repeat;
     width: 100%;
@@ -1538,9 +1530,6 @@
   /* Contact form section */
   #foot {
     box-sizing: border-box;
-
-    /* background-color: #1c33ff;
-    border-top-left-radius: 200px; */
     background-image: url("../images/bg-contact.png");
     background-size: cover;
     background-position: right 100% top 0%;
@@ -1773,6 +1762,7 @@
 
   .show-detail {
     display: block;
+
   }
 
   .grow {

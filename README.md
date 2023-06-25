@@ -29,11 +29,12 @@ mv_portfolio2!
 
 **mv_portfolio2** It's a Portfolio responsive web app! This is a project branch for creating a popup window to show work's details of the Portfolio.
 
+
 ## 🛠️ Built With <a name="built-with">
 ### Tech Stack <a name="tech-stack"></a>
 - HTML
 - CSS
-- JS
+- JAVASCRIPT
 
 </a>
 
@@ -45,7 +46,7 @@ mv_portfolio2!
 - **A webpage with the use of linters**
 - **Flexbox & Grid**
 - **Responsive Web Design**
-- **Basic interaction with JavaScript**
+- **Basic interactivity with JavaScript**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -108,7 +109,7 @@ To run the project, execute the following command:
 To run tests, run the following command:
 
 ```sh
-  npx hint . 
+  npx hint . --fix
   
   npx stylelint "**/*.{css,scss}" --fix
 
