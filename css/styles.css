@@ -198,6 +198,16 @@
     display: none;
   }
 
+  .grid-1b-2 {
+    display: none;
+  }
+
+  .grid2 {
+    background-color: #959ba3;
+    width: 100%;
+    height: 500px;
+  }
+
   .work1 {
     background-color: #fff;
     border: solid 1px #dfe1e6;
@@ -230,6 +240,15 @@
   .work-text1 {
     margin-top: 8px;
     font-size: 32px;
+    color: #172b4d;
+    width: 70%;
+    margin-left: 5%;
+    margin-bottom: 10px;
+  }
+
+  .work-text1a {
+    margin-top: 8px;
+    font-size: 28px;
     color: #172b4d;
     width: 70%;
     margin-left: 5%;
@@ -276,6 +295,50 @@
     display: flex;
     align-items: center;
     margin-bottom: 15px;
+  }
+
+  .flex1a {
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+  }
+
+  .canopy2 {
+    color: #344563;
+    font-size: 10px;
+    font-weight: 600;
+    margin: 0;
+    padding: 0;
+  }
+
+  .bed2,
+  .year2 {
+    color: #7a869a;
+    font-size: 10px;
+    font-weight: 600;
+  }
+
+  .dot2 {
+    margin: 0;
+    padding: 0;
+    width: 50%;
+    height: auto;
+  }
+
+  .flex2a {
+    margin-left: 0;
+    margin-right: auto;
+    display: flex;
+    align-items: start;
+    margin-bottom: 15px;
+  }
+
+  a.linkButton {
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+    text-decoration: none;
   }
 
   .float1 {
@@ -326,6 +389,64 @@
     border-radius: 4px;
     margin-left: 5%;
     margin-right: auto;
+  }
+
+  .see-project2 {
+    font-size: 0.8em;
+    font-weight: 500;
+    text-align: center;
+    vertical-align: middle;
+    background-color: #fff;
+    color: #396df2;
+    border: solid 1px #396df2;
+    padding: 8px 12px;
+    border-radius: 4px;
+    margin-left: 2%;
+    margin-right: auto;
+  }
+
+  .see-project2:hover {
+    font-size: 0.8em;
+    font-weight: 500;
+    text-align: center;
+    vertical-align: middle;
+    background-color: #6070ff;
+    color: #fff;
+    border: solid 1px #fff;
+    padding: 8px 12px;
+    border-radius: 4px;
+    margin-left: 2%;
+    margin-right: auto;
+  }
+
+  .see-project2:active {
+    font-size: 0.8em;
+    font-weight: 500;
+    text-align: center;
+    vertical-align: middle;
+    background-color: #2230d2;
+    color: #fff;
+    border: solid 1px #fff;
+    padding: 8px 12px;
+    border-radius: 4px;
+    margin-left: 2%;
+    margin-right: auto;
+  }
+
+  .photo3 {
+    width: 85%;
+  }
+
+  .hidegr {
+    display: none;
+  }
+
+  .hidegr-2 {
+    display: none;
+  }
+
+  .hidegr-3 {
+    display: block;
   }
 
   /* Section About Myself */
@@ -643,51 +764,81 @@
     margin: 0 0 10% 5%;
   }
 
-  #myModal {
-    display: none;
-    position: fixed;
-    z-index: 1;
-    padding-top: 45%;
-    left: 0%;
-    top: 0%;
+  .detail-container {
     width: 100%;
     height: 100%;
-    overflow: auto;
-    background-color: rgba(39, 4, 197, 0.4);
+    position: fixed;
+    left: 0;
+    top: 0;
+    backdrop-filter: blur(2px);
+    background-color: #c1c7d0b3;
+    z-index: 1;
+    display: none;
   }
 
-  .modal-content {
-    display: flex;
-    background-color: #fefefe;
-    justify-content: space-around;
-    align-items: center;
-    margin: auto;
-    vertical-align: middle;
-    padding: 5px;
-    border: 1px solid blue;
-    border-radius: 6px;
-    width: 80%;
-    font-family: "poppins", sans-serif;
-    font-size: 18px;
-    text-align: center;
-    color: #2230d2;
-    font-weight: 400;
+  .detail {
+    width: 70%;
+    height: 80%;
+    background-color: white;
+    padding: 5%;
+    overflow: scroll;
+    position: absolute;
+    border-radius: 16px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
   }
 
-  .close {
-    color: blue;
-    font-size: 38px;
-    font-weight: bold;
-    padding-bottom: 10px;
-  }
-
-  .close:hover,
-  .close:focus {
-    color: red;
-    text-decoration: none;
+  .btn-close {
+    position: absolute;
+    right: 60px;
+    top: 60px;
+    background-color: transparent;
     cursor: pointer;
-    padding-bottom: 10px;
+    z-index: 999;
   }
+
+  .show-detail {
+    display: block;
+  }
+
+  .box {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .box-text {
+    width: 70%;
+  }
+
+  .btn-box {
+    margin-left: 15px;
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .img {
+    width: 100%;
+    height: auto;
+  }
+
+  .img-inbtn {
+    margin-left: 6px;
+    vertical-align: middle;
+  }
+
+  .para {
+    padding: 4px;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #344563;
+  }
+
+  /* .hidegr-1 {
+    display: block;
+  } */
 
   #delay {
     font-size: 40px;
@@ -805,6 +956,17 @@
     display: none;
   }
 
+  .show {
+    position: fixed;
+    display: block;
+    background-color: rgb(96, 112, 255, 0.8);
+    width: 100%;
+    height: 810px;
+    left: 0;
+    top: 0;
+    right: 0;
+  }
+
   .toolbar {
     padding-top: 16px;
     position: fixed;
@@ -897,6 +1059,24 @@
     grid-template-rows: 1fr 1fr 1fr 1fr;
   }
 
+  .grid-1c {
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    grid-template-columns: 60% 40%;
+  }
+
+  .grid-1b-2 {
+    display: none;
+  }
+
+  .grid2 {
+    background-color: #959ba3;
+    width: 100%;
+    height: 500px;
+  }
+
   .rows {
     width: 80%;
     margin: 20px auto 20px auto;
@@ -928,6 +1108,10 @@
     width: 50%;
     height: auto;
     padding: 10px 10px 10px 10px;
+  }
+
+  .photo3 {
+    width: 85%;
   }
 
   .work1b-img {
@@ -986,13 +1170,15 @@
   }
 
   .stack {
-    font-size: 12px;
-    line-height: 16px;
+    font-size: 10px;
+    line-height: 14px;
     color: #4c5ace;
     float: left;
     background-color: #ebebff;
-    padding: 4px 12px 4px 12px;
+    padding: 4px 6px 4px 6px;
     border-radius: 6px;
+    min-width: 60px;
+    text-align: center;
   }
 
   .flex1,
@@ -1000,6 +1186,50 @@
     display: flex;
     align-items: center;
     margin-bottom: 32px;
+  }
+
+  .flex1a {
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+  }
+
+  .canopy2 {
+    color: #344563;
+    font-size: 10px;
+    font-weight: 600;
+    margin: 0;
+    padding: 0;
+  }
+
+  .bed2,
+  .year2 {
+    color: #7a869a;
+    font-size: 10px;
+    font-weight: 600;
+  }
+
+  .dot2 {
+    margin: 0;
+    padding: 0;
+    width: 50%;
+    height: auto;
+  }
+
+  .flex2a {
+    margin-left: 0;
+    margin-right: auto;
+    display: flex;
+    align-items: start;
+    margin-bottom: 15px;
+  }
+
+  a.linkButton {
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+    text-decoration: none;
   }
 
   .see-project {
@@ -1041,6 +1271,57 @@
     border-radius: 4px;
   }
 
+  .see-project2 {
+    font-size: 0.8em;
+    font-weight: 500;
+    height: 25px;
+    min-width: 100px;
+    display: flex;
+    text-align: center;
+    vertical-align: middle;
+    background-color: #fff;
+    color: #396df2;
+    border: solid 1px #396df2;
+    padding: 12px 12px;
+    border-radius: 4px;
+    margin-left: 15%;
+    margin-right: 15%;
+  }
+
+  .see-project2:hover {
+    font-size: 0.8em;
+    font-weight: 500;
+    height: 25px;
+    min-width: 100px;
+    display: flex;
+    text-align: center;
+    vertical-align: middle;
+    background-color: #6070ff;
+    color: #fff;
+    border: solid 1px #fff;
+    padding: 12px 12px;
+    border-radius: 4px;
+    margin-left: 15%;
+    margin-right: 15%;
+  }
+
+  .see-project2:active {
+    font-size: 0.8em;
+    font-weight: 500;
+    height: 25px;
+    min-width: 100px;
+    display: flex;
+    text-align: center;
+    vertical-align: middle;
+    background-color: #2230d2;
+    color: #fff;
+    border: solid 1px #fff;
+    padding: 12px 12px;
+    border-radius: 4px;
+    margin-left: 15%;
+    margin-right: 15%;
+  }
+
   .work1-img {
     display: block;
     width: 90%;
@@ -1048,6 +1329,18 @@
     margin-top: 15px;
     margin-left: auto;
     margin-right: auto;
+  }
+
+  .hidegr {
+    display: none;
+  }
+
+  .hidegr-2 {
+    display: none;
+  }
+
+  .reverse {
+    flex-direction: row-reverse;
   }
 
   /* Section About Myself */
@@ -1341,6 +1634,49 @@
     margin: 0 auto 18px auto;
   }
 
+  .box {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+  }
+
+  .box-text {
+    width: 70%;
+  }
+
+  .btn-box {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 15px;
+    margin-top: 15px;
+  }
+
+  .box4 {
+    width: 32%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .img {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+
+  .para {
+    font-weight: 400;
+    line-height: 30px;
+    color: #344563;
+  }
+
+  .img-inbtn {
+    margin-left: 10px;
+    vertical-align: middle;
+  }
+
   .label {
     display: none;
   }
@@ -1390,50 +1726,42 @@
     margin: 0 auto 70px auto;
   }
 
-  #myModal {
-    display: none;
-    position: fixed;
-    z-index: 1;
-    padding-top: 23%;
-    left: 0%;
-    top: 0%;
+  .detail-container {
     width: 100%;
     height: 100%;
-    overflow: auto;
-    background-color: rgba(39, 4, 197, 0.4);
+    position: fixed;
+    left: 0;
+    top: 0;
+    backdrop-filter: blur(2px);
+    background-color: #c1c7d0b3;
+    z-index: 1;
+    display: none;
   }
 
-  .modal-content {
-    display: flex;
-    background-color: #fefefe;
-    justify-content: space-around;
-    align-items: center;
-    margin: auto;
-    vertical-align: middle;
-    padding: 5px;
-    border: 1px solid blue;
-    border-radius: 6px;
-    width: 80%;
-    font-family: "poppins", sans-serif;
-    font-size: 18px;
-    text-align: center;
-    color: #2230d2;
-    font-weight: 400;
+  .detail {
+    width: 70%;
+    height: 80%;
+    background-color: white;
+    padding: 30px;
+    overflow: scroll;
+    position: absolute;
+    border-radius: 10px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
   }
 
-  .close {
-    color: blue;
-    font-size: 38px;
-    font-weight: bold;
-    padding-bottom: 10px;
-  }
-
-  .close:hover,
-  .close:focus {
-    color: red;
-    text-decoration: none;
+  .btn-close {
+    position: absolute;
+    right: 240px;
+    top: 70px;
+    background-color: transparent;
     cursor: pointer;
-    padding-bottom: 10px;
+    z-index: 999;
+  }
+
+  .show-detail {
+    display: block;
   }
 
   .grow {
