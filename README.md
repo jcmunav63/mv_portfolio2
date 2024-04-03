@@ -29,11 +29,11 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [mv_portfolio2 - Portfolio: Popup details window.] <a name="about-project"></a>
+# 📖 [mv_portfolio_jcm - Juan Carlos Muñoz' Portfolio.] <a name="about-project"></a>
 
 mv_portfolio2!
 
-**mv_portfolio2** It's a Portfolio responsive web app! This is a project branch for creating a popup window to show work's details of the Portfolio.
+**mv_portfolio_jcm** It's a Portfolio responsive web app! This is Juan Carlos Muñoz' Portfolio App. It includes four sections, the "hero", the "works", the "about me", and the "contact me" sections. It was developed wit HTML, CSS, and JavaScript. It is intended to be responsive and accessible.
 
 
 ## 🛠️ Built With <a name="built-with">
@@ -52,7 +52,7 @@ mv_portfolio2!
 - **A webpage with the use of linters**
 - **Flexbox & Grid**
 - **Responsive Web Design**
-- **Basic interactivity with JavaScript**
+- **Interactivity with JavaScript**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -61,7 +61,7 @@ mv_portfolio2!
 🚀 Live Demo
 Link to our deployed project...
 
-- https://jcmunav63.github.io/mv_portfolio2/
+- https://jcmunav63.github.io/mv_portfolio_jcm/
 
 <!-- GETTING STARTED -->
 
@@ -83,7 +83,7 @@ Clone this repository to your desired folder by running the following commands i
 ```sh
   cd your-prefered-folder-name
   
-  git clone https://github.com/jcmunav63/mv_portfolio2.git
+  git clone https://github.com/jcmunav63/mv_portfolio_jcm.git
 ```
 
 ### Install
@@ -91,7 +91,7 @@ Clone this repository to your desired folder by running the following commands i
 - Install this project with:
 
 ```sh
-  cd mv_portfolio2
+  cd mv_portfolio_jcm
 
   npm init -y
 
@@ -122,16 +122,12 @@ To run tests, run the following command:
   npx eslint . --fix
 ```
 
-
-<!-- PROJECT DEPLOYMENT -->
-
-### Live Demo <a name="live-demo"></a>
+### Deployment <a name="triangular_flag_on_post-deployment"></a>
 
 🚀 Live Demo
-Link to our deployed project...
+Link to our deployed project.
 
-- https://jcmunav63.github.io/mv_portfolio2/
-
+- https://jcmunav63.github.io/mv_portfolio_jcm/
 
 <!-- AUTHORS -->
 
@@ -142,7 +138,7 @@ Link to our deployed project...
 
 - GitHub: [@jcmunav63](https://github.com/jcmunav63)
 - Twitter: [@jcmunav63](https://twitter.com/jcmunav63)
-- LinkedIn: [@juan-carlos-muñoz-navarrete](https://www.linkedin.com/in/juan-carlos-mu%C3%B1oz-navarrete-5a15b6276/)
+- LinkedIn: [@juan-carlos-muñoz-navarrete](https://www.linkedin.com/in/juan-carlos-mu%C3%B1oz-fullstackdev/)
 
 👤 **El Mehdi Ahmidou**
 - GitHub: [@ahmidou09](https://github.com/ahmidou09)

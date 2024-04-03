@@ -1041,6 +1041,19 @@
   }
 
   /* Work Section */
+  .sep {
+    height: 80px;
+  }
+
+  .portfolio-title {
+    color: #172b4d;
+    padding-top: 20px;
+    font-size: 40px;
+    line-height: 40px;
+    font-weight: 600;
+    margin-left: 10%;
+  }
+
   .works {
     margin: 50px 0 50px 0;
     width: 100%;
