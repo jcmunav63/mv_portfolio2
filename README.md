@@ -1,5 +1,11 @@
 <a name="readme-top"></a>
 
+<div align="center">
+    <img src="/images/logo_jcm_md.png" alt="main-logo" width="500"  height="auto" />
+  <br/>
+  <h3><b>Portfolio JCM App - Juan Carlos Muñoz</b></h3>
+</div>
+
 # 📗 Table of Contents
 
 - [📖 About the Project](#about-project)
