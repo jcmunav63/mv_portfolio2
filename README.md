@@ -29,11 +29,11 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [mv_portfolio_jcm - Juan Carlos Muñoz' Portfolio.] <a name="about-project"></a>
+# 📖 [mv_portfolio2 ' Portfolio App] <a name="about-project"></a>
 
 mv_portfolio2!
 
-**mv_portfolio_jcm** It's a Portfolio responsive web app! This is Juan Carlos Muñoz' Portfolio App. It includes four sections, the "hero", the "works", the "about me", and the "contact me" sections. It was developed wit HTML, CSS, and JavaScript. It is intended to be responsive and accessible.
+**mv_portfolio2** It's a Portfolio responsive web app! This is Juan Carlos Muñoz' Portfolio App. It includes four sections, the "hero", the "works", the "about me", and the "contact me" sections. It was developed wit HTML, CSS, and JavaScript. It is intended to be responsive and accessible.
 
 
 ## 🛠️ Built With <a name="built-with">
@@ -61,7 +61,7 @@ mv_portfolio2!
 🚀 Live Demo
 Link to our deployed project...
 
-- https://jcmunav63.github.io/mv_portfolio_jcm/
+- https://jcmunav63.github.io/mv_portfolio2/
 
 <!-- GETTING STARTED -->
 
@@ -83,7 +83,7 @@ Clone this repository to your desired folder by running the following commands i
 ```sh
   cd your-prefered-folder-name
   
-  git clone https://github.com/jcmunav63/mv_portfolio_jcm.git
+  git clone https://github.com/jcmunav63/mv_portfolio2.git
 ```
 
 ### Install
@@ -91,7 +91,7 @@ Clone this repository to your desired folder by running the following commands i
 - Install this project with:
 
 ```sh
-  cd mv_portfolio_jcm
+  cd mv_portfolio2
 
   npm init -y
 
@@ -127,7 +127,7 @@ To run tests, run the following command:
 🚀 Live Demo
 Link to our deployed project.
 
-- https://jcmunav63.github.io/mv_portfolio_jcm/
+- https://jcmunav63.github.io/mv_portfolio2/
 
 <!-- AUTHORS -->
 
