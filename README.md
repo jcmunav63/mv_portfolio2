@@ -13,7 +13,7 @@
   - [Install](#install)
   - [Usage](#usage)
   - [Run tests](#run-tests)
-  - [Deployment](#triangular_flag_on_post-deployment)
+  - [🚀 Deployment](#triangular_flag_on_post-deployment)
 - [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
@@ -53,7 +53,7 @@ mv_portfolio2!
 ### Live Demo <a name="live-demo"></a>
 
 🚀 Live Demo
-Link to our deployed project.
+Link to our deployed project...
 
 - https://jcmunav63.github.io/mv_portfolio2/
 
@@ -115,6 +115,17 @@ To run tests, run the following command:
 
   npx eslint . --fix
 ```
+
+
+<!-- PROJECT DEPLOYMENT -->
+
+### Live Demo <a name="live-demo"></a>
+
+🚀 Live Demo
+Link to our deployed project...
+
+- https://jcmunav63.github.io/mv_portfolio2/
+
 
 <!-- AUTHORS -->
 
